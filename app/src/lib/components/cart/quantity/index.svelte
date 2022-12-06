@@ -4,6 +4,6 @@
 
 <input
 	type="text"
-	class="block w-full rounded-md border-cyan-300 pr-8 focus:border-cyan-600 focus:ring-cyan-600 sm:text-sm"
+	class="block w-full rounded-md border-indigo-300 pr-8 focus:border-indigo-600 focus:ring-indigo-600 sm:text-sm"
 	bind:value={quantity}
 />

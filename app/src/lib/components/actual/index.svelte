@@ -49,12 +49,12 @@
 						<button
 							on:click|preventDefault|once={sendToCart(id)}
 							type="button"
-							class="m-2 px-3 py-1 align-bottom rounded-md text-base text-gray-100 bg-cyan-600 hover:bg-cyan-700"
+							class="m-2 px-3 py-1 align-bottom rounded-md text-base text-gray-100 bg-indigo-600 hover:bg-indigo-700"
 							>В корзину</button
 						>
 					{:else}
 						<button
-							class="m-2 px-3 py-1 align-bottom rounded-md text-base text-gray-100 bg-cyan-800 hover:bg-cyan-700"
+							class="m-2 px-3 py-1 align-bottom rounded-md text-base text-gray-100 bg-indigo-800 hover:bg-indigo-700"
 							>В корзине</button
 						>
 					{/if}

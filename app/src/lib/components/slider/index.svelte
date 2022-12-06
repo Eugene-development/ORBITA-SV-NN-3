@@ -62,7 +62,7 @@
 								on:click={changeVisibleSlideOne}
 								id="features-tab-1"
 								class="{visibleSlideOne
-									? 'border-cyan-500 text-cyan-600'
+									? 'border-indigo-500 text-indigo-600'
 									: 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'}
 									whitespace-nowrap border-b-2 py-6 text-sm font-medium"
 								aria-controls="features-panel-1"
@@ -74,7 +74,7 @@
 								on:click={changeVisibleSlideTwo}
 								id="features-tab-2"
 								class="{visibleSlideTwo
-									? 'border-cyan-500 text-cyan-600'
+									? 'border-indigo-500 text-indigo-600'
 									: 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'}
 									whitespace-nowrap border-b-2 py-6 text-sm font-medium"
 								aria-controls="features-panel-2"
@@ -86,7 +86,7 @@
 								on:click={changeVisibleSlideThree}
 								id="features-tab-3"
 								class="{visibleSlideTree
-									? 'border-cyan-500 text-cyan-600'
+									? 'border-indigo-500 text-indigo-600'
 									: 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'}
 									whitespace-nowrap border-b-2 py-6 text-sm font-medium"
 								aria-controls="features-panel-3"
@@ -98,7 +98,7 @@
 								on:click={changeVisibleSlideFour}
 								id="features-tab-4"
 								class="{visibleSlideFour
-									? 'border-cyan-500 text-cyan-600'
+									? 'border-indigo-500 text-indigo-600'
 									: 'border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300'}
 									whitespace-nowrap border-b-2 py-6 text-sm font-medium"
 								aria-controls="features-panel-4"

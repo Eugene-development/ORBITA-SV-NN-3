@@ -21,7 +21,7 @@
 					</div>
 					<div class="flex-1 bg-white p-6 flex flex-col justify-between">
 						<div class="flex-1">
-							<div class="text-sm font-medium text-cyan-600">
+							<div class="text-sm font-medium text-indigo-600">
 								<span class="hover:underline"> Статья </span>
 							</div>
 							<div class="block mt-2">

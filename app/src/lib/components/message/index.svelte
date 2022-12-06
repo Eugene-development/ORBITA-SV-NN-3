@@ -20,7 +20,7 @@
 				<blockquote>
 					<div>
 						<svg
-							class="h-12 w-12 text-cyan-700 "
+							class="h-12 w-12 text-indigo-700 "
 							fill="currentColor"
 							viewBox="0 0 32 32"
 							aria-hidden="true"
@@ -39,7 +39,7 @@
 					</div>
 					<footer class="mt-6">
 						<p class="text-blueGray-800 text-base font-medium">Сорокин Сергей Владимирович</p>
-						<p class="text-base font-medium text-cyan-900">Директор</p>
+						<p class="text-base font-medium text-indigo-900">Директор</p>
 					</footer>
 				</blockquote>
 			</div>

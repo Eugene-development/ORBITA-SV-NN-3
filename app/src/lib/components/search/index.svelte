@@ -194,11 +194,11 @@
 							<button
 								on:click|preventDefault|once={sendToCart(id)}
 								type="button"
-								class="ml-10 rounded-md text-sm text-gray-100 bg-cyan-600 hover:bg-cyan-700 px-3 py-0.5"
+								class="ml-10 rounded-md text-sm text-gray-100 bg-indigo-600 hover:bg-indigo-700 px-3 py-0.5"
 								>В корзину</button
 							>
 						{:else}
-							<button class="ml-10 rounded-md text-sm text-gray-100 bg-cyan-800 px-3 py-0.5"
+							<button class="ml-10 rounded-md text-sm text-gray-100 bg-indigo-800 px-3 py-0.5"
 								>В корзине</button
 							>
 						{/if}

@@ -1,7 +1,7 @@
 <div class="ml-8 mt-16 text-center text-base">
 	<div>
-		<h2 class="text-base font-semibold uppercase tracking-wide text-cyan-600">это интересно</h2>
-		<h3 class="mt-2 text-4xl font-extrabold leading-8 tracking-tight text-cyan-900 sm:text-5xl">
+		<h2 class="text-base font-semibold uppercase tracking-wide text-indigo-600">это интересно</h2>
+		<h3 class="mt-2 text-4xl font-extrabold leading-8 tracking-tight text-indigo-900 sm:text-5xl">
 			Отзывы о нас
 		</h3>
 	</div>
@@ -9,7 +9,7 @@
 
 <section class="my-12 bg-gray-800">
 	<div class="md:grid md:grid-cols-2">
-		<div class="py-12 px-12 md:flex md:flex-col md:border-r md:border-cyan-900 md:py-16 ">
+		<div class="py-12 px-12 md:flex md:flex-col md:border-r md:border-indigo-900 md:py-16 ">
 			<div class="text-2xl text-gray-100 md:flex-shrink-0">
 				<h2>ООО "РемСтройМонтаж"</h2>
 				<!--            <img class="h-12" src="https://tailwindui.com/img/logos/tuple-logo-indigo-300.svg" alt="Tuple">-->
@@ -18,7 +18,7 @@
 				<div class="relative text-lg font-medium text-white md:flex-grow">
 					<svg
 						aria-hidden="true"
-						class="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-cyan-500"
+						class="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-indigo-500"
 						fill="currentColor"
 						viewBox="0 0 32 32"
 					>
@@ -41,7 +41,7 @@
 						<!--                </div>-->
 						<div class="ml-1">
 							<div class="text-base font-medium text-white">Вилков А.Н.</div>
-							<div class="text-base font-medium text-cyan-500">Генеральный директор</div>
+							<div class="text-base font-medium text-indigo-500">Генеральный директор</div>
 						</div>
 					</div>
 				</footer>
@@ -55,7 +55,7 @@
 			<blockquote class="mt-6 md:flex md:flex-grow md:flex-col">
 				<div class="relative text-lg font-medium text-white md:flex-grow">
 					<svg
-						class="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-cyan-500"
+						class="absolute top-0 left-0 h-8 w-8 -translate-x-3 -translate-y-2 transform text-indigo-500"
 						fill="currentColor"
 						viewBox="0 0 32 32"
 					>
@@ -78,7 +78,7 @@
 						<!--                </div>-->
 						<div class="ml-1">
 							<div class="text-base font-medium text-white">Чернышев В.В.</div>
-							<div class="text-base font-medium text-cyan-500">Генеральный директор</div>
+							<div class="text-base font-medium text-indigo-500">Генеральный директор</div>
 						</div>
 					</div>
 				</footer>

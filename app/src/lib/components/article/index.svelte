@@ -5,7 +5,7 @@
 				id="newsletter-headline"
 				class="text-3xl font-extrabold tracking-tight text-white sm:text-4xl"
 			>
-				<span class="mb-6 block text-5xl text-cyan-400">"Орбита-Строй"</span>
+				<span class="mb-6 block text-5xl text-indigo-400">"Орбита-Строй"</span>
 				<span class="block text-white">это база строительных и отделочных материалов</span>
 				<span class="block text-gray-100">в Дзержинске</span>
 			</h2>
@@ -23,7 +23,7 @@
 		<div class="absolute top-0 bottom-0 left-3/4 hidden w-screen bg-gray-50 lg:block" />
 		<div class="mx-auto max-w-prose text-base lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-8">
 			<div>
-				<h2 class="text-base font-semibold uppercase tracking-wide text-cyan-600">
+				<h2 class="text-base font-semibold uppercase tracking-wide text-indigo-600">
 					Строительная база
 				</h2>
 				<h3 class="mt-2 text-3xl font-extrabold leading-8 tracking-tight text-gray-900 sm:text-4xl">
@@ -72,7 +72,7 @@
 			<div class="mt-8 lg:mt-0">
 				<div class="mx-auto max-w-prose text-base lg:max-w-none">
 					<p
-						class="prose prose-cyan mx-auto mt-1 text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none"
+						class="prose prose-indigo mx-auto mt-1 text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none"
 					>
 						Компания «Орбита Строй» – это не просто стройбаза, это надежный партнер, сотрудничающий
 						с организациями, строительно-ремонтными бригадами, частными лицами и розничными
@@ -81,7 +81,7 @@
 					</p>
 				</div>
 				<div
-					class="prose prose-cyan mx-auto mt-1 text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none"
+					class="prose prose-indigo mx-auto mt-1 text-gray-500 lg:col-start-1 lg:row-start-1 lg:max-w-none"
 				>
 					<p>
 						В перечне товаров базы «Орбита Строй» представлено все необходимое для комплектации
