@@ -48,5 +48,5 @@ const informationMenu = [
 ];
 
 export const contentInformationMenu = {
-	informationMenu,
+	informationMenu
 };

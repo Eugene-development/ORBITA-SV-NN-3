@@ -1,6 +1,6 @@
 <script>
 	/** @type {import('./$types').PageData} */
-import { reject, without, pullAllBy, forEach, find, filter } from 'lodash';
+	import { reject, without, pullAllBy, forEach, find, filter } from 'lodash';
 	import axios from 'axios';
 	import { lengthCart, idProductsInCart, prodInCart, allProducts } from '$lib/store/stores.js';
 
@@ -46,7 +46,7 @@ import { reject, without, pullAllBy, forEach, find, filter } from 'lodash';
 		const apiMail = {
 			baseURL: `${import.meta.env.VITE_API_MAIL}`,
 			headers: {
-				Authorization: `Bearer ${import.meta.env.VITE_TOKEN}`,
+				Authorization: `Bearer ${import.meta.env.VITE_TOKEN}`
 				// 'access-control-allow-origin': "*",
 				// 'Access-Control-Allow-Headers': 'Content-Type, Authorization',
 				// 'Access-Control-Allow-Methods': '*',
@@ -81,9 +81,6 @@ import { reject, without, pullAllBy, forEach, find, filter } from 'lodash';
 		cleanData();
 	};
 
-
-
-
 	import { browser } from '$app/environment';
 
 	export let data;
@@ -98,8 +95,6 @@ import { reject, without, pullAllBy, forEach, find, filter } from 'lodash';
 		item.quantity = 1;
 	});
 	prodInCart.update(() => productsInCart);
-
-
 </script>
 
 <svelte:head>

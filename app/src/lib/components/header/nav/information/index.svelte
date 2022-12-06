@@ -1,7 +1,7 @@
 <script>
 	import { visibleInformationMenu } from '$lib/store/stores.js';
 
-    // import { clickOutside } from '$lib/functions/click_outside';
+	// import { clickOutside } from '$lib/functions/click_outside';
 	import { useInvert } from '$lib/functions/broker';
 	const { invert, invertToFalse } = useInvert;
 
@@ -12,9 +12,9 @@
 		visibleInformationMenu.update(invertToFalse);
 	};
 	export let informationMenu;
-
 </script>
-	<div >
+
+<div>
 	<!-- <div on:outclick={closeVisibleInformationMenu} use:clickOutside> -->
 
 	<button
@@ -54,7 +54,7 @@
                                 From: "opacity-100 translate-y-0"
                                 To: "opacity-0 -translate-y-1"
                             -->
-		{#if $visibleInformationMenu}
+	{#if $visibleInformationMenu}
 		<div class="absolute inset-x-0 top-full z-10 hidden transform shadow-lg md:block">
 			<div class="absolute inset-0 flex">
 				<div class="w-1/2 bg-white" />
@@ -68,62 +68,62 @@
 						<!--                                                <h3 class="text-sm font-medium tracking-wide text-slate-500 uppercase">Company</h3>-->
 						<ul class="mt-5 space-y-6">
 							{#each informationMenu[0].left as { href, displayName }}
-														<li class="flow-root">
-															<a
-																{href}
-																on:click={closeVisibleInformationMenu}
-																class="-m-3 flex items-center rounded-md p-3 text-base font-medium text-slate-900 hover:bg-slate-50"
-															>
-																<svg
-																	class="h-6 w-6 flex-shrink-0 text-indigo-700"
-																	xmlns="http://www.w3.org/2000/svg"
-																	fill="none"
-																	viewBox="0 0 24 24"
-																	stroke="currentColor"
-																	aria-hidden="true"
-																>
-																	<path
-																		stroke-linecap="round"
-																		stroke-linejoin="round"
-																		stroke-width="2"
-																		d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-																	/>
-																</svg>
-																<span class="ml-4">{displayName}</span>
-															</a>
-														</li>
-													{/each}
+								<li class="flow-root">
+									<a
+										{href}
+										on:click={closeVisibleInformationMenu}
+										class="-m-3 flex items-center rounded-md p-3 text-base font-medium text-slate-900 hover:bg-slate-50"
+									>
+										<svg
+											class="h-6 w-6 flex-shrink-0 text-indigo-700"
+											xmlns="http://www.w3.org/2000/svg"
+											fill="none"
+											viewBox="0 0 24 24"
+											stroke="currentColor"
+											aria-hidden="true"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+											/>
+										</svg>
+										<span class="ml-4">{displayName}</span>
+									</a>
+								</li>
+							{/each}
 						</ul>
 					</div>
 					<div>
 						<ul class="mt-5 space-y-6">
 							{#each informationMenu[0].right as { href, displayName }}
-														<li class="flow-root">
-															<a
-																{href}
-																on:click={changeVisibleInformationMenu}
-																on:outclick={changeVisibleInformationMenu}
-																class="-m-3 flex items-center rounded-md p-3 text-base font-medium text-slate-900 hover:bg-slate-50"
-															>
-																<svg
-																	class="h-6 w-6 flex-shrink-0 text-indigo-700"
-																	xmlns="http://www.w3.org/2000/svg"
-																	fill="none"
-																	viewBox="0 0 24 24"
-																	stroke="currentColor"
-																	aria-hidden="true"
-																>
-																	<path
-																		stroke-linecap="round"
-																		stroke-linejoin="round"
-																		stroke-width="2"
-																		d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
-																	/>
-																</svg>
-																<span class="ml-4">{displayName}</span>
-															</a>
-														</li>
-													{/each}
+								<li class="flow-root">
+									<a
+										{href}
+										on:click={changeVisibleInformationMenu}
+										on:outclick={changeVisibleInformationMenu}
+										class="-m-3 flex items-center rounded-md p-3 text-base font-medium text-slate-900 hover:bg-slate-50"
+									>
+										<svg
+											class="h-6 w-6 flex-shrink-0 text-indigo-700"
+											xmlns="http://www.w3.org/2000/svg"
+											fill="none"
+											viewBox="0 0 24 24"
+											stroke="currentColor"
+											aria-hidden="true"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												stroke-width="2"
+												d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+											/>
+										</svg>
+										<span class="ml-4">{displayName}</span>
+									</a>
+								</li>
+							{/each}
 						</ul>
 					</div>
 				</nav>

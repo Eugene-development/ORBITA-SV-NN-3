@@ -67,9 +67,7 @@
 				<li
 					class="col-span-1 flex flex-col divide-y divide-slate-200 rounded-lg border-2 border-slate-100 bg-white text-center shadow-lg shadow-slate-500/50 ring-1 ring-slate-100 ring-offset-1"
 				>
-					<a 							
-					data-sveltekit-prefetch
- href="/shop/product/{slug}">
+					<a data-sveltekit-prefetch href="/product/{slug}">
 						<div class="flex flex-1 flex-col p-8">
 							{#if image}
 								<img
@@ -172,8 +170,8 @@
 								<!--                  </svg>-->
 								<!--                </div>-->
 								<a
-							data-sveltekit-prefetch
-									href="/shop/product/{slug}"
+									data-sveltekit-prefetch
+									href="/product/{slug}"
 									class="relative -mr-px inline-flex w-0 flex-1 items-center justify-center rounded-bl-lg border border-transparent py-2 text-sm  font-medium text-slate-700 hover:text-slate-500"
 								>
 									<svg

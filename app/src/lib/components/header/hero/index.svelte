@@ -4,9 +4,7 @@
 
 <div class="max-w-9xl mx-auto  px-4 sm:px-6 lg:px-8">
 	<div class="mx-auto  text-center">
-		<h2
-			class="py-6 text-3xl font-bold text-indigo-900 antialiased sm:text-4xl lg:text-5xl"
-		>
+		<h2 class="py-6 text-3xl font-bold text-indigo-900 antialiased sm:text-4xl lg:text-5xl">
 			<!-- {$pageH1} -->
 			База стройматериалов "Орбита-Строй"
 		</h2>

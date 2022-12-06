@@ -212,8 +212,8 @@
 										</div>
 										<p class="mt-4 text-sm">
 											<a
-							data-sveltekit-prefetch
-												href="/shop/products/{slug}"
+												data-sveltekit-prefetch
+												href="/products/{slug}"
 												class="font-medium text-gray-500 underline"
 											>
 												Выберите нужную позицию
@@ -222,8 +222,8 @@
 										<div class="mt-6">
 											<div class="rounded-md shadow">
 												<a
-							data-sveltekit-prefetch
-													href="/shop/products/{slug}"
+													data-sveltekit-prefetch
+													href="/products/{slug}"
 													class="flex items-center justify-center rounded-md border border-transparent bg-gradient-to-tr from-indigo-500 via-indigo-900 to-indigo-700 px-5 py-3 text-base font-medium text-white hover:bg-gradient-to-bl"
 												>
 													Выбрать

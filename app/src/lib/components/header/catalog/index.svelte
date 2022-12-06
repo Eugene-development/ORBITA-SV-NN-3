@@ -19,9 +19,9 @@
 					<div class="rounded-lg bg-white shadow-md shadow-gray-700/50 lg:hidden">
 						{#each catalog as { slug, name }}
 							<a
-							data-sveltekit-prefetch
-							data-sveltekit-noscroll
-								href="/shop/rubric/{slug}"
+								data-sveltekit-prefetch
+								data-sveltekit-noscroll
+								href="/rubric/{slug}"
 								on:click={() => visibleCatalog.update(invert)}
 								class="flex flex-col border border-gray-200 bg-gradient-to-tr from-indigo-500 via-indigo-900 to-indigo-700 p-4 text-center hover:bg-gradient-to-bl sm:border-r sm:border-l"
 							>
@@ -38,9 +38,9 @@
 					>
 						{#each catalog as { slug, name }}
 							<a
-							data-sveltekit-prefetch
-							data-sveltekit-noscroll
-								href="/shop/rubric/{slug}"
+								data-sveltekit-prefetch
+								data-sveltekit-noscroll
+								href="/rubric/{slug}"
 								class="flex flex-col  border border-gray-200 p-4 text-center hover:border-red-800 hover:bg-gradient-to-l hover:from-red-900 hover:via-red-800 hover:to-red-900 sm:border-r sm:border-l 
 								{$page.url.pathname === '/shop/rubric/' + slug
 									? 'bg-gradient-to-r from-red-900 via-red-800 to-red-900'

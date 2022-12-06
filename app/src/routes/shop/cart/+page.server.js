@@ -10,5 +10,5 @@ export async function load() {
 	// const allProducts = await request(url, ALL_PRODUCTS, variables);
 
 	// return { allProducts };
-	return {  };
+	return {};
 }

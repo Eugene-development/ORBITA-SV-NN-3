@@ -96,10 +96,7 @@
 							</p>
 						{/if} -->
 
-						<a
-data-sveltekit-prefetch
-							href="/shop/products/{data.product.product_one.parent.slug}"
-						>
+						<a data-sveltekit-prefetch href="/products/{data.product.product_one.parent.slug}">
 							<div class="flex border-t border-slate-200 py-2">
 								<span class="text-slate-500">Категория:</span>
 								<span class="ml-auto text-sm text-red-500 hover:text-red-600"
