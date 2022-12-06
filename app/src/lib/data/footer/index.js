@@ -9,7 +9,7 @@ const menu = [
 	{
 		value: 'Главная',
 		path: ''
-	},
+	}
 ];
 
 const content = {
