@@ -11,7 +11,7 @@
 <div class="py-8">
 	<div class="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
 		<div class="mx-auto max-w-3xl space-y-2 lg:max-w-none">
-			<span class="text-lg font-semibold uppercase leading-6 tracking-wider text-cyan-700">
+			<span class="text-lg font-semibold uppercase leading-6 tracking-wider text-indigo-700">
 				Раздел
 			</span>
 
@@ -33,7 +33,7 @@
 				>
 					{#each data.catalog.catalog_one.rubric as { slug, value }}
 						<div
-							class="flex flex-col overflow-hidden rounded-lg border-2 shadow-lg shadow-cyan-200/50"
+							class="flex flex-col overflow-hidden rounded-lg border-2 shadow-lg shadow-indigo-200/50"
 						>
 							<div class="px-6 py-8 text-center sm:p-10 sm:pb-6">
 								<div>
@@ -51,13 +51,13 @@
 								<!--                                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.-->
 								<!--                                                  </p>-->
 							</div>
-							<div class="flex flex-1 flex-col justify-between px-6  sm:p-10 sm:pt-6">
+							<div class="flex flex-1 flex-col justify-between px-6  sm:p-10 sm:pt-6 transition ease-in-out hover:scale-105">
 								<ul class="space-y-2" />
-								<div class="mb-2 rounded-md shadow-lg shadow-cyan-500/50">
+								<div class="mb-2 rounded-md shadow-lg shadow-indigo-500/50">
 									<a
-							data-sveltekit-prefetch
+							            data-sveltekit-prefetch
 										href="/shop/category/{slug}"
-										class="block w-full rounded-md border border-cyan-900 bg-gradient-to-r from-cyan-500 via-cyan-800 to-cyan-500 py-2 text-center text-sm font-semibold text-white duration-300 ease-in hover:bg-cyan-900 hover:from-cyan-800 hover:via-cyan-500 hover:to-cyan-800"
+										class="block w-full rounded-md border border-indigo-900 bg-gradient-to-r from-indigo-500 via-indigo-800 to-indigo-500 py-2 text-center text-sm font-semibold text-white duration-300 ease-in hover:bg-indigo-900 hover:from-indigo-800 hover:via-indigo-500 hover:to-indigo-800"
 									>
 										В каталог
 									</a>

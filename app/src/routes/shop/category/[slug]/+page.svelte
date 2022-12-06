@@ -11,7 +11,7 @@
 <div class="py-8">
 	<div class="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
 		<div class="mx-auto max-w-3xl space-y-2 lg:max-w-none">
-			<span class="text-lg font-semibold uppercase leading-6 tracking-wider text-cyan-700">
+			<span class="text-lg font-semibold uppercase leading-6 tracking-wider text-indigo-700">
 				Рубрика
 			</span>
 
@@ -224,7 +224,7 @@
 												<a
 							data-sveltekit-prefetch
 													href="/shop/products/{slug}"
-													class="flex items-center justify-center rounded-md border border-transparent bg-gradient-to-tr from-cyan-500 via-cyan-900 to-cyan-700 px-5 py-3 text-base font-medium text-white hover:bg-gradient-to-bl"
+													class="flex items-center justify-center rounded-md border border-transparent bg-gradient-to-tr from-indigo-500 via-indigo-900 to-indigo-700 px-5 py-3 text-base font-medium text-white hover:bg-gradient-to-bl"
 												>
 													Выбрать
 												</a>

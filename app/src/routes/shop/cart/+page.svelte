@@ -169,7 +169,7 @@ import { reject, without, pullAllBy, forEach, find, filter } from 'lodash';
 										<dt class="sr-only">Цена</dt>
 										<dd class="mt-1 truncate">
 											<span
-												class="inline-flex rounded-md bg-cyan-100 px-2 text-xs font-semibold leading-5 text-cyan-900"
+												class="inline-flex rounded-md bg-indigo-100 px-2 text-xs font-semibold leading-5 text-indigo-900"
 											>
 												Цена: {price?.value} руб/{unit?.value}
 											</span>
@@ -178,7 +178,7 @@ import { reject, without, pullAllBy, forEach, find, filter } from 'lodash';
 										<dd class="mt-2 mr-20 truncate text-gray-500 sm:hidden">
 											<input
 												type="text"
-												class="block w-full rounded-md border-cyan-300 pr-8 focus:border-cyan-600 focus:ring-cyan-600 sm:text-sm"
+												class="block w-full rounded-md border-indigo-300 pr-8 focus:border-indigo-600 focus:ring-indigo-600 sm:text-sm"
 												bind:value={quantity}
 											/>
 										</dd>
@@ -186,7 +186,7 @@ import { reject, without, pullAllBy, forEach, find, filter } from 'lodash';
 								</td>
 								<td class="hidden px-3 py-4 text-sm text-gray-500 lg:table-cell ">
 									<span
-										class="inline-flex rounded-md bg-cyan-100 px-3 py-1 text-sm font-semibold leading-5 text-cyan-900"
+										class="inline-flex rounded-md bg-indigo-100 px-3 py-1 text-sm font-semibold leading-5 text-indigo-900"
 									>
 										{price?.value} руб/{unit?.value}
 									</span>
@@ -194,7 +194,7 @@ import { reject, without, pullAllBy, forEach, find, filter } from 'lodash';
 								<td class="hidden px-3 py-4 text-sm text-gray-500 sm:table-cell">
 									<input
 										type="text"
-										class="-mr-48 block w-full rounded-md border-cyan-300 pr-16 focus:border-cyan-500 focus:ring-cyan-600 sm:text-sm"
+										class="-mr-48 block w-full rounded-md border-indigo-300 pr-16 focus:border-indigo-500 focus:ring-indigo-600 sm:text-sm"
 										bind:value={quantity}
 									/>
 								</td>
@@ -251,7 +251,7 @@ import { reject, without, pullAllBy, forEach, find, filter } from 'lodash';
 						</svg>
 					</div>
 					<div class="ml-3 flex-1 md:flex md:justify-between">
-						<p class="text-sm text-cyan-700">Корзина пуста. Ждём вас снова за покупками.</p>
+						<p class="text-sm text-indigo-700">Корзина пуста. Ждём вас снова за покупками.</p>
 						<!--            <p class="mt-3 text-sm md:mt-0 md:ml-6">-->
 						<!--              <a href="#" class="whitespace-nowrap font-medium text-blue-700 hover:text-blue-600">Назад <span aria-hidden="true">&rarr;</span></a>-->
 						<!--            </p>-->
@@ -264,7 +264,7 @@ import { reject, without, pullAllBy, forEach, find, filter } from 'lodash';
 	{#if $lengthCart > 0}
 		<div class="m-8 text-right">
 			<span
-				class="inline-flex  rounded-md bg-cyan-100 px-3.5 py-1 text-xs font-medium text-cyan-800 sm:text-base"
+				class="inline-flex  rounded-md bg-indigo-100 px-3.5 py-1 text-xs font-medium text-indigo-800 sm:text-base"
 				>ИТОГО (с учётом скидки 5%): {totalSum} руб.</span
 			>
 		</div>

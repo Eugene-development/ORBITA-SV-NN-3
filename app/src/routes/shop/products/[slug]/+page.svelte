@@ -45,7 +45,7 @@
 <div class="py-8">
 	<div class="mx-auto max-w-7xl px-4 text-center sm:px-6 lg:px-8">
 		<div class="mx-auto max-w-3xl space-y-2 lg:max-w-none">
-			<span class="text-lg font-semibold uppercase leading-6 tracking-wider text-cyan-700">
+			<span class="text-lg font-semibold uppercase leading-6 tracking-wider text-indigo-700">
 				Категория
 			</span>
 
@@ -95,13 +95,13 @@
 								<dd class="mt-4">
 									{#if price}
 										<span
-											class="rounded-full bg-cyan-900 px-3 py-1.5 text-base font-medium text-slate-100"
+											class="rounded-full bg-indigo-900 px-3 py-1.5 text-base font-medium text-slate-100"
 											>{price?.value}
 											р/{unit?.value}</span
 										>
 									{:else}
 										<span
-											class="rounded-full bg-cyan-900 px-3 py-1.5 text-base font-medium text-slate-100"
+											class="rounded-full bg-indigo-900 px-3 py-1.5 text-base font-medium text-slate-100"
 											>Цена не указана</span
 										>
 									{/if}
@@ -114,7 +114,7 @@
 							<div class="flex w-0 flex-1">
 								{#if browser && InCart.some((arrVal) => id === arrVal)}
 									<div
-										class="relative inline-flex w-0 flex-1 items-center justify-center rounded-bl-lg border border-transparent bg-cyan-900 py-2 text-sm font-medium text-slate-50 hover:text-slate-100 focus:outline-none"
+										class="relative inline-flex w-0 flex-1 items-center justify-center rounded-bl-lg border border-transparent bg-indigo-900 py-2 text-sm font-medium text-slate-50 hover:text-slate-100 focus:outline-none"
 									>
 										<svg
 											class="h-6 w-6 text-gray-50"

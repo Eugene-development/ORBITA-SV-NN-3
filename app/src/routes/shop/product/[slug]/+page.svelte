@@ -119,13 +119,13 @@ data-sveltekit-prefetch
 						<div class="flex">
 							{#if data.product.product_one.price}
 								<span
-									class="title-font rounded-2xl bg-cyan-900 py-2 px-4 text-lg font-medium text-slate-100"
+									class="title-font rounded-2xl bg-indigo-900 py-2 px-4 text-lg font-medium text-slate-100"
 									>{data.product.product_one.price?.value} р/{data.product.product_one.unit
 										.value}.</span
 								>
 							{:else}
 								<span
-									class="title-font rounded-2xl bg-cyan-900 py-2 px-4 text-lg font-medium text-slate-100"
+									class="title-font rounded-2xl bg-indigo-900 py-2 px-4 text-lg font-medium text-slate-100"
 									>Цена не указана</span
 								>
 							{/if}
@@ -156,7 +156,7 @@ data-sveltekit-prefetch
 								<span class="" />
 							{:else}
 								<div
-									class="ml-auto flex items-center justify-center rounded-md border border-transparent bg-cyan-900 py-2 px-6 text-base font-medium text-slate-100 "
+									class="ml-auto flex items-center justify-center rounded-md border border-transparent bg-indigo-900 py-2 px-6 text-base font-medium text-slate-100 "
 								>
 									<svg
 										class="h-5 w-5 text-red-400"
