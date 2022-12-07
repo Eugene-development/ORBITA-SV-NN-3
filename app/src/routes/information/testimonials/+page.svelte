@@ -1,11 +1,11 @@
 <script>
 	/** @type {import('./$types').PageData} */
-	export let data;
+	// export let data;
 </script>
 
 <svelte:head>
-	<title>"Орбита строй" | Отзывы</title>
-	<meta name="description" content="Отзывы о компании 'Орбита строй'" />
+	<title>"Орбита строй" || Отзывы о нас</title>
+	<meta name="description" content="Отзывы о нашей базе стройматериалов 'Орбита строй'" />
 </svelte:head>
 
 <div>

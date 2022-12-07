@@ -1,11 +1,11 @@
 <script>
 	/** @type {import('./$types').PageData} */
-	export let data;
+	// export let data;
 </script>
 
 <svelte:head>
-	<title>"Орбита строй" | Доставка стройматериалов</title>
-	<meta name="description" content="Доставка стройматериалов до клиента компании 'Орбита строй'" />
+	<title>"Орбита строй" || Доставка стройматериалов</title>
+	<meta name="description" content="Доставка стройматериалов до адреса клиента компании 'Орбита строй'" />
 </svelte:head>
 
 <div class="py-16 bg-gray-50 overflow-hidden">
