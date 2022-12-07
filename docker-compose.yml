@@ -1,0 +1,33 @@
+version: "3"
+
+services:
+  svelte:
+    build:
+      context: .
+      dockerfile: ./docker/node/Dockerfile
+    container_name: "${COMPOSE_PROJECT_NAME}_PROJECT"
+    restart: always
+    command:
+      "npm run start"
+
+
+  nginx:
+    image: nginx:1.13
+    container_name: "${COMPOSE_PROJECT_NAME}_NGINX"
+    ports:
+      - "4112:80"
+    volumes:
+      - ./:/var/www
+      - ./docker/nginx/conf.d/:/etc/nginx/conf.d/
+    depends_on:
+      - svelte
+
+#  certbot:
+#    image: certbot/certbot
+#    depends_on:
+#      - nginx
+#    container_name: certbot
+#    volumes:
+#      - ./certbot/conf:/etc/letsencrypt
+#      - ./certbot/www:/var/www/certbot
+#    command: certonly --webroot -w /var/www/certbot --force-renewal --email indexpro24@gmail.com -d larux.ru --agree-tos

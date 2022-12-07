@@ -85,7 +85,7 @@
 							<h3
 								class="mt-6 h-10 text-sm font-medium lowercase text-slate-900 first-letter:uppercase whitespace-normal"
 							>
-								{value}
+								{value}-{id}
 							</h3>
 							<dl class="mt-1 flex flex-grow flex-col justify-between">
 								<dt class="sr-only">Title</dt>
