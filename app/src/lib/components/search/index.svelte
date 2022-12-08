@@ -176,15 +176,14 @@
 							</svg> -->
 							</span>
 							<a
-								href="/shop/product/{slug}"
+								href="/product/{slug}"
 								sveltekit:prefetch
-								sveltekit:noscroll
 								on:click={() => visibleSearch.update(invert)}
 								class="ml-4 mt-0.5 flex-auto "
 							>
 								<!-- Active: "text-gray-900", Not Active: "text-gray-700" -->
 								<p class="text-sm font-medium lowercase  text-gray-700 first-letter:uppercase">
-									{value} - {price?.value} руб/{unit?.value}
+									{value}/id{id} - {price?.value} руб/{unit?.value}
 								</p>
 								<!-- Active: "text-gray-700", Not Active: "text-gray-500" -->
 								<p class="text-sm text-gray-500" />

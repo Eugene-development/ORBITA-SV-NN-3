@@ -88,7 +88,7 @@
 					<a class="text-base text-indigo-900 hover:text-red-800" href="/information/action"
 						>Акции</a
 					>
-					<a class="text-base text-indigo-900 hover:text-red-800" href="/contact"> Контакты </a>
+					<a class="text-base text-indigo-900 hover:text-red-800" href="/information/contact"> Контакты </a>
 					<!-- svelte-ignore security-anchor-rel-noreferrer -->
 					<a
 						class="text-base text-indigo-900 hover:text-red-800"
