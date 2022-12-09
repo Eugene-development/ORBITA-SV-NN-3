@@ -59,7 +59,7 @@
 					<p
 						class="mt-3 text-base text-gray-700 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0"
 					>
-						440 рублей за упаковку 30 кг.
+						440 рублей при заказе на сайте
 					</p>
 					<p
 						class="mt-3 text-base text-gray-700 sm:mx-auto sm:mt-5 sm:max-w-xl sm:text-lg md:mt-5 md:text-xl lg:mx-0"

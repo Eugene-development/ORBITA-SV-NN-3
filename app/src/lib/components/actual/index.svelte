@@ -24,9 +24,10 @@
 
 <div class="bg-white">
 	<div class="mx-auto max-w-2xl mt-4 py-8 px-4 sm:py-12 sm:px-6 lg:max-w-full lg:px-8">
-		<h2 class="text-4xl text-center font-bold tracking-tight text-gray-900">
-			Распродажа товара со скидкой до 20%
+		<h2 class="py-2 text-4xl text-center font-bold tracking-tight text-gray-900">
+			Распродажа стройматериалов!
 		</h2>
+		<p class="py-2 text-xl text-center tracking-tight text-gray-900">При заказе через сайт дополнительная скидка 5%.</p>
 
 		<div class="mt-6 grid grid-cols-1 gap-y-8 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
 			{#each actions as { id, action, price, description, link, img }}
