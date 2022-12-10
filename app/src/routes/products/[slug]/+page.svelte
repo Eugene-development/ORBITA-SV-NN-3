@@ -53,7 +53,7 @@
 				{data.category.category_one.value}
 			</h1>
 			<p class="text-xl text-slate-800">
-				Приобретайте товар "{data.category.category_one.value}" в Дзержинске по низким ценам с
+				Приобретайте товар "{data.category.category_one.value}" в Нижнем Новгороде по низким ценам с
 				доставкой или самовывозом
 			</p>
 		</div>

@@ -65,11 +65,10 @@
 						</div>
 						<a href={link} class="relative" sveltekit:prefetch>
 							<div class="sm:text-center">
-								<h2 class="text-2xl font-extrabold text-white tracking-tight md:text-5xl">
+								<h2 class="my-4 text-2xl font-extrabold text-white tracking-tight md:text-5xl">
 									{action}
-									<br />
-									<span class="text-3xl">{price}</span>
 								</h2>
+								<span class="text-5xl font-extrabold text-white">{price} руб.</span>
 								<p class="mt-6 mx-auto max-w-2xl text-lg text-indigo-50">
 									{description}
 								</p>
