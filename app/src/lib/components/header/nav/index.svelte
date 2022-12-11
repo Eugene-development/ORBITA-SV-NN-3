@@ -82,7 +82,7 @@
 			<div class="hidden sm:items-center sm:justify-between lg:flex lg:flex-1">
 				<nav class="flex space-x-8 font-semibold">
 					<a class="text-base text-indigo-900 hover:text-red-800 " href="/">Главная</a>
-					<a class="text-base text-indigo-900 hover:text-red-800" href="/about">Компания</a>
+					<a class="text-base text-indigo-900 hover:text-red-800" href="/company">Компания</a>
 					<Information {informationMenu} />
 					<a class="text-base text-indigo-900 hover:text-red-800" href="/blog"> Блог </a>
 					<a class="text-base text-indigo-900 hover:text-red-800" href="/information/action"

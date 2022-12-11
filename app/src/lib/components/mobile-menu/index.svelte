@@ -99,7 +99,7 @@
 							<a
 								on:click={handleMenu}
 								class="-m-3 flex items-center p-3 rounded-lg hover:bg-gray-50"
-								href="/about"
+								href="/company"
 							>
 								<div
 									class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12"
@@ -183,7 +183,7 @@
 							<a
 								on:click={handleMenu}
 								class="-m-3 flex items-center p-3 rounded-lg hover:bg-gray-50"
-								href="/contact"
+								href="/information/contact"
 							>
 								<div
 									class="flex-shrink-0 flex items-center justify-center h-10 w-10 rounded-md bg-indigo-500 text-white sm:h-12 sm:w-12"
