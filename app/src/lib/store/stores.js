@@ -7,6 +7,10 @@ export const visibleCatalog = writable(false);
 export const visibleSearch = writable(false);
 export const banner = writable(true);
 
+export const visibleDescription = writable(true);
+export const visiblePayment = writable(false);
+export const visibleDelivery = writable(false);
+
 export const allProducts = writable([]);
 export const lengthCart = writable(0);
 export const idProductsInCart = writable([]);

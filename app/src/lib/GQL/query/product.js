@@ -11,6 +11,9 @@ export const ONE_PRODUCT = gql`
 			unit {
 				value
 			}
+			text {
+				value
+			}
 			image {
 				hash
 				alt
