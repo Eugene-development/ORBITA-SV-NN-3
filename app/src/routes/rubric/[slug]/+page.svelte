@@ -1,6 +1,7 @@
 <script>
 	/** @type {import('./$types').PageData} */
 	export let data;
+	console.log(data);
 </script>
 
 <svelte:head>
@@ -79,10 +80,10 @@
 							<h2
 								class="inline-flex rounded-full bg-white px-4 py-1 text-2xl font-semibold tracking-wide text-slate-800"
 							>
-								<!-- {text.titleText} -->
+								 {data.catalog.catalog_one.value}. Цены, ассортимент и дополнительные услуги.
 							</h2>
 						</div>
-						<!-- <div class="mt-8 text-lg text-slate-600">{@html text.text}</div> -->
+						<div class="mt-8 text-lg text-slate-600">{@html data.catalog.catalog_one.text[0]?.value}</div>
 					</div>
 				</div>
 				<div class="mt-6 rounded-md shadow lg:flex-shrink-0">
@@ -90,7 +91,7 @@
 						href="/information/action"
 						class="flex items-center justify-center rounded-md border border-transparent bg-slate-50 px-5 py-3 text-base font-medium text-slate-900 hover:bg-slate-100"
 					>
-						{data.catalog.catalog_one.value} со скидками и доставкой в Дзержинске.
+						{data.catalog.catalog_one.value} по низким ценам с доставкой в Нижнем Новгороде. Звоните!
 					</a>
 				</div>
 			</div>

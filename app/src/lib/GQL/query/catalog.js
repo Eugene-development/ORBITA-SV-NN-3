@@ -8,6 +8,9 @@ export const ONE_CATALOG = gql`
 				value
 				slug
 			}
+			text {
+				value
+			}
 		}
 	}
 `;
