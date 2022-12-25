@@ -183,7 +183,7 @@
 							>
 								<!-- Active: "text-gray-900", Not Active: "text-gray-700" -->
 								<p class="text-sm font-medium lowercase  text-gray-700 first-letter:uppercase">
-									{value}/id{id} - {price?.value} руб/{unit?.value}
+									{value} - {price?.value} руб/{unit?.value}
 								</p>
 								<!-- Active: "text-gray-700", Not Active: "text-gray-500" -->
 								<p class="text-sm text-gray-500" />
