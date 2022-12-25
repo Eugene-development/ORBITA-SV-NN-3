@@ -207,8 +207,8 @@
 
 
 
-
-			<div class="relative mx-auto mt-8 max-w-7xl px-4 sm:px-6 lg:mt-8 lg:px-8">
+{#if data.category.category_one.text[0]}
+	<div class="relative mx-auto mt-8 max-w-7xl px-4 sm:px-6 lg:mt-8 lg:px-8">
 			<div class="mx-auto max-w-md lg:max-w-7xl">
 				<div class="rounded-lg bg-slate-50 px-6 py-8 sm:p-10 lg:flex lg:items-center">
 					<!--            <div v-for="(text, idx) of head.text" :key="text.id" class="rounded-lg bg-slate-50 px-6 py-8 sm:p-10 lg:flex lg:items-center">-->
@@ -233,5 +233,7 @@
 				</div>
 			</div>
 		</div>
+{/if}
+			
 
 </div>
