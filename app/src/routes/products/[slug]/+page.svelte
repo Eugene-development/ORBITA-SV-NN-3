@@ -203,4 +203,35 @@
 			{/each}
 		</ul>
 	</div>
+
+
+
+
+
+			<div class="relative mx-auto mt-8 max-w-7xl px-4 sm:px-6 lg:mt-8 lg:px-8">
+			<div class="mx-auto max-w-md lg:max-w-7xl">
+				<div class="rounded-lg bg-slate-50 px-6 py-8 sm:p-10 lg:flex lg:items-center">
+					<!--            <div v-for="(text, idx) of head.text" :key="text.id" class="rounded-lg bg-slate-50 px-6 py-8 sm:p-10 lg:flex lg:items-center">-->
+					<div class="flex-1">
+						<div>
+							<h2
+								class="inline-flex rounded-full bg-white px-4 py-1 text-2xl font-semibold tracking-wide text-slate-800"
+							>
+								 {data.category.category_one.value}. Цены, ассортимент и дополнительные услуги.
+							</h2>
+						</div>
+						<div class="mt-8 text-lg text-slate-600">{@html data.category.category_one.text[0]?.value}</div>
+					</div>
+				</div>
+				<div class="mt-6 rounded-md shadow lg:flex-shrink-0">
+					<a
+						href="/information/action"
+						class="flex items-center justify-center rounded-md border border-transparent bg-slate-50 px-5 py-3 text-base font-medium text-slate-900 hover:bg-slate-100"
+					>
+						{data.category.category_one.value} по низким ценам с доставкой в Нижнем Новгороде. Звоните!
+					</a>
+				</div>
+			</div>
+		</div>
+
 </div>

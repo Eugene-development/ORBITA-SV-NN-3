@@ -8,11 +8,11 @@
 		scroll-behavior: smooth;
 	}
 
-	/* ul {
+	ul {
         @apply ml-8 my-2 list-outside list-disc;
     }
 
     ol {
         @apply ml-8 my-2 list-outside list-decimal;
-    } */
+    }
 }
