@@ -11,7 +11,7 @@
 		<img
 			class="inset-0 mt-2 h-64 w-full object-cover"
 			src="https://storage.yandexcloud.net/brand-logo/orbita/main-bg.jpeg"
-			alt="база строительных материалов"
+			alt="База стройматериалов"
 		/>
 
 		<p class="mt-3 text-xl text-indigo-900 sm:mt-4">

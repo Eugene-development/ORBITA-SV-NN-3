@@ -105,7 +105,7 @@
 	<div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/3">
 		<img
 			class="py-24 h-56 w-full object-cover sm:h-56 md:h-72 lg:h-full lg:w-full hidden md:block"
-			src="https://www.astmnsk.ru/image/cache/data/band2-600x315.jpg"
+			src="https://storage.yandexcloud.net/brand-logo/orbita/actions/act-rotband.jpeg"
 			alt=""
 		/>
 		<!-- <img
