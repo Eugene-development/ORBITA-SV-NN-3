@@ -213,11 +213,11 @@
 				<div class="rounded-lg bg-slate-50 px-6 py-8 sm:p-10 lg:flex lg:items-center">
 					<!--            <div v-for="(text, idx) of head.text" :key="text.id" class="rounded-lg bg-slate-50 px-6 py-8 sm:p-10 lg:flex lg:items-center">-->
 					<div class="flex-1">
-						<div>
+						<div class="-mx-2">
 							<h2
-								class="inline-flex rounded-full bg-white px-4 py-1 text-2xl font-semibold tracking-wide text-slate-800"
+								class="inline-flex rounded-full bg-white px-4 py-1 text-xl font-semibold tracking-wide text-slate-800"
 							>
-								 {data.category.category_one.value}. Цены, ассортимент и дополнительные услуги.
+								 {data.category.category_one.value} со склада в Нижнем Новгороде. Цены, ассортимент и дополнительные услуги.
 							</h2>
 						</div>
 						<div class="mt-8 text-lg text-slate-600">{@html data.category.category_one.text[0]?.value}</div>
