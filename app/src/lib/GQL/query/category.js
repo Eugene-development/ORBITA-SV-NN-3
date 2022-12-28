@@ -22,6 +22,18 @@ export const ONE_CATEGORY = gql`
 					alt
 				}
 			}
+			parent: parentable {
+				... on Rubric {
+					value
+					slug
+					parent: parentable {
+						... on Catalog {
+							value
+							slug
+						}
+					}
+				}
+			}
 		}
 	}
 `;
