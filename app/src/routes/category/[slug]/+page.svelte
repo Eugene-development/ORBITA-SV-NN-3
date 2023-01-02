@@ -131,7 +131,7 @@
 									class="mx-auto mb-8 max-w-lg overflow-hidden rounded-lg shadow-lg lg:flex lg:max-w-none "
 								>
 									<div class="flex-1 bg-gray-50 px-6 py-8 lg:p-12">
-										<h3 class="text-3xl font-extrabold text-gray-900 sm:text-4xl text-center">{value}</h3>
+										<h3 class="text-2xl md:text-3xl font-extrabold text-gray-900 sm:text-4xl text-center">{value}</h3>
 										<!-- {#if text}
 											<p class="mt-6 text-base text-gray-500">{text.descriptionText}</p>
 										{:else}
