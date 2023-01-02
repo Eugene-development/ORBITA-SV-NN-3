@@ -55,9 +55,9 @@
 			<h1 class="text-4xl font-bold text-slate-800 sm:text-5xl lg:text-6xl">
 				{data.rubric.rubric_one.value}
 			</h1>
-			<!-- <p class="text-xl text-slate-800">
-				Приобретайте товар "{data.rubric.rubric_one.value}" в Дзержинске по низким ценам
-			</p> -->
+			<p class="max-w-3xl text-xl mx-auto text-slate-800">
+				Купите товар "{data.rubric.rubric_one.value}" в Нижнем Новгороде по низкой цене с доставкой или самовывозом
+			</p>
 		</div>
 	</div>
 </div>

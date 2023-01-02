@@ -43,7 +43,10 @@
 			<h1 class="text-4xl font-extrabold text-slate-800 sm:text-5xl lg:text-6xl">
 				{data.catalog.catalog_one.value}
 			</h1>
-			<!-- <p class="text-xl text-slate-800">Выберите интересующую вас рубрику в этом разделе.</p> -->
+			<p class="max-w-3xl text-xl mx-auto text-slate-800">
+				Купите товар "{data.catalog.catalog_one.value}" в Нижнем Новгороде по низким ценам с
+				доставкой или самовывозом
+			</p>
 		</div>
 	</div>
 </div>
