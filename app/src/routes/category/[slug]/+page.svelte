@@ -15,7 +15,7 @@
 				Рубрика
 			</span> -->
 
-						<nav class="flex mb-6" aria-label="Breadcrumb">
+			<nav class="flex mb-6" aria-label="Breadcrumb">
 				<div  class="flex items-center space-x-4 mx-auto">
 					<div>
 						<div>
@@ -31,25 +31,23 @@
 
 					<div>
 						<div class="flex items-center">
-							<!-- Heroicon name: mini/chevron-right -->
 							<svg class="h-5 w-5 flex-shrink-0 text-slate-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 							<path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
 							</svg>
 							<a  data-sveltekit-prefetch
 							    data-sveltekit-noscroll
-								href="/rubric/{data.rubric.rubric_one.parent.slug}" class="ml-4 text-xl font-medium text-slate-600 ">{data.rubric.rubric_one.parent.value}</a>
+								href="/rubric/{data.rubric.rubric_one.parent.slug}" class="ml-4 text-base md:text-xl font-medium text-slate-600 ">{data.rubric.rubric_one.parent.value}</a>
 						</div>
 					</div>
 
-					<div>
+					<!-- <div>
 						<div class="flex items-center">
-							<!-- Heroicon name: mini/chevron-right -->
 							<svg class="h-5 w-5 flex-shrink-0 text-slate-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
 							<path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
 							</svg>
-							<span class="ml-4 text-xl font-medium text-slate-600 ">{data.rubric.rubric_one.value}</span>
+							<span class="ml-4 text-base md:text-xl font-medium text-slate-600 ">{data.rubric.rubric_one.value}</span>
 						</div>
-					</div>
+					</div> -->
 
 				</div>
 			</nav>
@@ -133,13 +131,13 @@
 									class="mx-auto mb-8 max-w-lg overflow-hidden rounded-lg shadow-lg lg:flex lg:max-w-none "
 								>
 									<div class="flex-1 bg-gray-50 px-6 py-8 lg:p-12">
-										<h3 class="text-3xl font-extrabold text-gray-900 sm:text-4xl">{value}</h3>
+										<h3 class="text-3xl font-extrabold text-gray-900 sm:text-4xl text-center">{value}</h3>
 										<!-- {#if text}
 											<p class="mt-6 text-base text-gray-500">{text.descriptionText}</p>
 										{:else}
 											<p class="mt-6 text-base text-gray-500">Цена снижена</p>
 										{/if} -->
-										<div class="mt-8">
+										<div class="hidden md:block mt-8">
 											<div class="flex items-center">
 												<h4
 													class="flex-shrink-0 bg-gray-50 pr-4 text-sm font-semibold uppercase tracking-wider text-red-700"
@@ -149,7 +147,7 @@
 												<div class="flex-1 border-t-2 border-gray-200" />
 											</div>
 											<ul
-												class="mt-8 space-y-5 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-5 lg:space-y-0"
+												class=" mt-8 space-y-5 lg:grid lg:grid-cols-2 lg:gap-x-8 lg:gap-y-5 lg:space-y-0"
 											>
 												<li class="flex items-start lg:col-span-1">
 													<div class="flex-shrink-0">

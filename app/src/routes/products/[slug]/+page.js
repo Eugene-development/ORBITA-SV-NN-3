@@ -4,8 +4,12 @@ import { pageH1, idProductsInCart } from '$lib/store/stores.js';
 
 export async function load({ data }) {
 	const { category } = data;
-	const title = "База стройматериалов 'Орбита-Строй'" + ' || ' + ' Купить товар "';
-	data.category.category_one.value + '" в Нижнем Новгороде по выгодной цене';
+	const title =
+		"База стройматериалов 'Орбита-Строй'" +
+		' || ' +
+		' Купить товар "' +
+		data.category.category_one.value +
+		'" в Нижнем Новгороде по выгодной цене';
 	const description =
 		data.category.category_one.value +
 		' в Нижнем Новгороде и регионе по доступным ценам в наличии со склада и под заказ. ' +
