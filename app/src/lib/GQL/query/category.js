@@ -5,6 +5,7 @@ export const ONE_CATEGORY = gql`
 		category_one(slug: $slug, key: $key) {
 			value
 			text {
+				key
 				value
 			}
 			product {

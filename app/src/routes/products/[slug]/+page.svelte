@@ -107,6 +107,9 @@
 	</div>
 </div>
 
+
+
+
 <div class="bg-gradient-to-b from-white  to-slate-50">
 	<div class="p-8">
 		<ul class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ">
@@ -254,7 +257,11 @@
 
 
 
-{#if data.category.category_one.text[0]}
+
+
+
+
+
 	<div class="relative mx-auto mt-8 max-w-7xl px-4 sm:px-6 lg:mt-8 lg:px-8">
 			<div class="mx-auto max-w-md lg:max-w-7xl">
 				<div class="rounded-lg bg-slate-50 px-6 py-8 sm:p-10 lg:flex lg:items-center">
@@ -267,7 +274,12 @@
 								 {data.category.category_one.value} со склада в Нижнем Новгороде. Цены, ассортимент и дополнительные услуги.
 							</h2>
 						</div>
-						<div class="mt-8 text-lg text-slate-600">{@html data.category.category_one.text[0]?.value}</div>
+
+					{#each data.category.category_one?.text as {key, value}}
+						{#if key === '11' }
+						<div class="mt-8 text-lg text-slate-600">{@html value}</div>
+						{/if}
+					{/each}
 					</div>
 				</div>
 				<div class="mt-6 rounded-md shadow lg:flex-shrink-0">
@@ -280,7 +292,6 @@
 				</div>
 			</div>
 		</div>
-{/if}
 			
 
 </div>
