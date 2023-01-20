@@ -1,4 +1,4 @@
-<meta name="yandex-verification" content="ea094214d7bfc9c5" />
+{/* <meta name="yandex-verification" content="ea094214d7bfc9c5" />
 				<!-- Yandex.Metrika counter -->
 				<script type="text/javascript">
 					(function (m, e, t, r, i, k, a) {
@@ -16,4 +16,4 @@
 				</script>
 				<noscript>
 					<div><img src="https://mc.yandex.ru/watch/82186939" style="position:absolute; left:-9999px;" alt="" /></div>
-				</noscript>
+				</noscript> */}
