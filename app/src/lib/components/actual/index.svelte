@@ -33,7 +33,7 @@
 			{#each actions as { id, action, price, description, link, img }}
 				<div class="group rounded-md relative shadow-lg shadow-slate-400/50 p-3">
 					<div
-						class="h-56 p-8 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md  group-hover:opacity-75 lg:aspect-none "
+						class="h-56 p-8 aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-md  group-hover:opacity-75 lg:aspect-none transition ease-in-out hover:scale-104"
 					>
 						<img src={img} alt="" class=" my-2  object-contain " />
 					</div>
