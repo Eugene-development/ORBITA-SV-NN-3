@@ -251,13 +251,12 @@
 								Партнёрам:
 							</h3>
 
-							<ul class="mt-4 space-y-4">
+							<!-- <ul class="mt-4 space-y-4">
 								<li class="flow-root">
 									<a
 										class="-m-3 flex items-center rounded-md py-2 text-base font-medium text-gray-900"
 										href="/information/yurlica"
 									>
-										<!-- Heroicon name: user-group -->
 										<svg
 											aria-hidden="true"
 											class="h-6 w-6 flex-shrink-0 text-gray-400"
@@ -282,7 +281,6 @@
 										class="-m-3 flex items-center rounded-md py-2 text-base font-medium text-gray-900"
 										href="/information/brigadi"
 									>
-										<!-- Heroicon name: globe-alt -->
 										<svg
 											aria-hidden="true"
 											class="h-6 w-6 flex-shrink-0 text-gray-400"
@@ -307,7 +305,6 @@
 										class="-m-3 flex items-center rounded-md py-2 text-base font-medium text-gray-900"
 										href="/information/ip"
 									>
-										<!-- Heroicon name: bookmark-alt -->
 										<svg
 											aria-hidden="true"
 											class="h-6 w-6 flex-shrink-0 text-gray-400"
@@ -332,7 +329,6 @@
 										class="-m-3 flex items-center rounded-md py-2 text-base font-medium text-gray-900"
 										href="/information/fizlica"
 									>
-										<!-- Heroicon name: desktop-computer -->
 										<svg
 											aria-hidden="true"
 											class="h-6 w-6 flex-shrink-0 text-gray-400"
@@ -351,7 +347,7 @@
 										<span class="ml-1 md:ml-2 text-gray-300">Физ. лица</span>
 									</a>
 								</li>
-							</ul>
+							</ul> -->
 						</div>
 					</div>
 				</div>
