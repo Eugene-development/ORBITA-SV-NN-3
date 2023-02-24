@@ -2,18 +2,21 @@
 	<div
 		class="mt-1 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1"
 	>
-		<p>Параграф</p>
-		<h2>Н2</h2>
-		<span>Строка</span>
-		<ol>
-			<li>Нумерованный список</li>
-		</ol>
-		<span>Строка</span>
-		<ul>
-			<li>Ненумерованный список</li>
-		</ul>
-		<span>Строка</span>
-		<h2>Н2</h2>
-		<p>Параграф</p>
+	<h2>1</h2>
+	<h2>1</h2>
+	<ol>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+		<li>1</li>
+	</ol>
+	<p>1</p>
+	<p>1</p>
+	<p>1</p>
+	<p>1</p>
+	<p>1</p>
+	<p>1</p>
+	<p>1</p>
+	<p>1</p>
 	</div>
 </div> -->

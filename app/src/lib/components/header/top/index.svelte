@@ -89,7 +89,7 @@
 							/>
 						</svg>
 						<span class="rounded-md mt-0.5 pr-2 text-xl font-medium text-white"
-							>info@orbita-stroy.com</span
+							>nn@orbita-stroy.com</span
 						>
 					</div>
 				</div>

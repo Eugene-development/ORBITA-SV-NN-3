@@ -56,7 +56,7 @@ const actions = [
 	{
 		id: '1541',
 		action: 'Гкл "кнауф" даногипс 9,5мм (1,2х2,5)',
-		price: '275',
+		price: '310',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/product/gkl-knauf-danogips-95mm-12x25',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/m5NgzpdlHX02sqR1Mqu3YrUQJwqqDGUOuAeYV75Z.jpeg'
