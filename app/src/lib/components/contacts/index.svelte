@@ -25,9 +25,7 @@
 					</h2>
 
 					<div class="mt-3">
-						<p class="text-lg">
-							База пластиковых окон
-						</p>
+						<p class="text-lg">База пластиковых окон</p>
 					</div>
 
 					<div class="mt-12">
@@ -74,7 +72,7 @@
 								</svg>
 							</div>
 							<div class="ml-3 text-base ">
-								<p>info@orbita-stroy.com</p>
+								<p>nn@orbita-stroy.com</p>
 							</div>
 						</div>
 						<div class="mt-6 flex">
@@ -157,7 +155,7 @@
 								</svg>
 							</div>
 							<div class="ml-3 text-base ">
-								<p>info@orbita-stroy.com</p>
+								<p>nn@orbita-stroy.com</p>
 							</div>
 						</div>
 						<div class="mt-6 flex">
