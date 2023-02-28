@@ -2,7 +2,13 @@
 	/** @type {import('./$types').PageData} */
 	import axios from 'axios';
 	import { browser } from '$app/environment';
-	import { lengthCart, idProductsInCart, visibleDescription, visiblePayment, visibleDelivery } from '$lib/store/stores.js';
+	import {
+		lengthCart,
+		idProductsInCart,
+		visibleDescription,
+		visiblePayment,
+		visibleDelivery
+	} from '$lib/store/stores.js';
 
 	const sendToCart = async (id) => {
 		if (browser && localStorage.getItem('inCart') === null) {
@@ -76,10 +82,12 @@
 						</div>
 
 						{#if visibleDescription}
-
-						<!-- TODO: переделать -->
-						{#if data.product.product_one.text} <p class="mb-4 leading-relaxed ">{@html data.product.product_one.text.value}</p> {:else} <p class="mb-4 leading-relaxed ">Описание товара отсутствует</p> {/if}
-
+							<!-- TODO: переделать -->
+							{#if data.product.product_one.text}
+								<p class="mb-4 leading-relaxed ">{@html data.product.product_one.text.value}</p>
+							{:else}
+								<p class="mb-4 leading-relaxed ">Описание товара отсутствует</p>
+							{/if}
 						{:else if visiblePayment}
 							<p class="mb-4 leading-relaxed">
 								Предлагаем следующие варианты оплаты: <br />
@@ -113,7 +121,7 @@
 							<span class="ml-auto text-slate-900">{data.product.product_one.unit.value}</span>
 						</div>
 						<div class="mb-6 flex border-t border-b border-slate-200 py-2">
-							<span class="text-slate-500">Наличие:</span>
+							<span class="text-slate-500">В наличии:</span>
 							<span class="ml-auto text-slate-900">Уточняйте у менеджера</span>
 						</div>
 						<div class="flex">
