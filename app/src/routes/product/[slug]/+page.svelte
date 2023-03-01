@@ -37,6 +37,22 @@
 		};
 		await axios.post(url, payloadCart, apiCart);
 	};
+
+	const changeVisibleDescriptionInfo = () => {
+		visibleDescription.update(() => true);
+		visiblePayment.update(() => false);
+		visibleDelivery.update(() => false);
+	};
+	const changeVisiblePaymentInfo = () => {
+		visibleDescription.update(() => false);
+		visiblePayment.update(() => true);
+		visibleDelivery.update(() => false);
+	};
+	const changeVisibleDeliveryInfo = () => {
+		visibleDescription.update(() => false);
+		visiblePayment.update(() => false);
+		visibleDelivery.update(() => true);
+	};
 	export let data;
 </script>
 
@@ -65,30 +81,33 @@
 						</h1>
 						<div class="mb-4 flex">
 							<button
-								class="flex-grow border-slate-300  py-2 px-1 text-lg focus:outline-none {true
+								on:click={changeVisibleDescriptionInfo}
+								class="flex-grow border-slate-300  py-2 px-1 text-lg focus:outline-none {$visibleDescription
 									? 'border-b-2 font-bold'
 									: 'font-normal'}">Описание</button
 							>
 							<button
-								class="flex-grow border-slate-300 py-2 px-1 text-lg focus:outline-none {false
+								on:click={changeVisiblePaymentInfo}
+								class="flex-grow border-slate-300 py-2 px-1 text-lg focus:outline-none {$visiblePayment
 									? 'border-b-2 font-bold'
 									: 'font-normal '}">Оплата</button
 							>
 							<button
-								class="flex-grow border-slate-300 py-2 px-1 text-lg focus:outline-none {false
+								on:click={changeVisibleDeliveryInfo}
+								class="flex-grow border-slate-300 py-2 px-1 text-lg focus:outline-none {$visibleDelivery
 									? 'border-b-2 font-bold'
 									: 'font-normal '}">Доставка</button
 							>
 						</div>
 
-						{#if visibleDescription}
+						{#if $visibleDescription}
 							<!-- TODO: переделать -->
 							{#if data.product.product_one.text}
 								<p class="mb-4 leading-relaxed ">{@html data.product.product_one.text.value}</p>
 							{:else}
 								<p class="mb-4 leading-relaxed ">Описание товара отсутствует</p>
 							{/if}
-						{:else if visiblePayment}
+						{:else if $visiblePayment}
 							<p class="mb-4 leading-relaxed">
 								Предлагаем следующие варианты оплаты: <br />
 								- наличными курьеру при получении товара;<br />
@@ -97,7 +116,7 @@
 								реквизитами на указанный вами электронный адрес. Доставка (самовывоз) товара осуществляется
 								после получения денежных средств на наш расчётный счёт.
 							</p>
-						{:else if visibleDelivery}
+						{:else if $visibleDelivery}
 							<p class="mb-4 leading-relaxed">
 								Для удобства мы предлагаем доставку товара на адрес объекта.
 								<br />Наша компания осуществляет доставку строительных и отделочных материалов как
