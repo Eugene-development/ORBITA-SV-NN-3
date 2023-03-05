@@ -73,31 +73,37 @@
 			<div class="container mx-auto px-8 py-12">
 				<div class="mx-auto flex flex-wrap">
 					<div class="mb-6 w-full lg:mb-0 lg:w-1/2 lg:py-6 lg:pr-12">
-						<h2 class="title-font text-base tracking-widest text-red-500">НАИМЕНОВАНИЕ</h2>
+						<!-- <h2 class="title-font text-base tracking-widest text-red-500">НАИМЕНОВАНИЕ</h2> -->
 						<h1
 							class="title-font my-4 text-xl font-medium lowercase text-slate-900 first-letter:uppercase"
 						>
 							{data.product.product_one.value}
 						</h1>
-						<div class="mb-4 flex">
-							<button
-								on:click={changeVisibleDescriptionInfo}
-								class="flex-grow border-slate-300  py-2 px-1 text-lg focus:outline-none {$visibleDescription
-									? 'border-b-2 font-bold'
-									: 'font-normal'}">Описание</button
-							>
-							<button
-								on:click={changeVisiblePaymentInfo}
-								class="flex-grow border-slate-300 py-2 px-1 text-lg focus:outline-none {$visiblePayment
-									? 'border-b-2 font-bold'
-									: 'font-normal '}">Оплата</button
-							>
-							<button
-								on:click={changeVisibleDeliveryInfo}
-								class="flex-grow border-slate-300 py-2 px-1 text-lg focus:outline-none {$visibleDelivery
-									? 'border-b-2 font-bold'
-									: 'font-normal '}">Доставка</button
-							>
+						<div class="mb-4 flex justify-between">
+							<h2>
+								<button
+									on:click={changeVisibleDescriptionInfo}
+									class="flex-grow border-slate-300  py-2 px-1 text-xl focus:outline-none {$visibleDescription
+										? 'border-b-2 border-red-200 font-bold'
+										: 'font-normal'}">Описание</button
+								>
+							</h2>
+							<h2>
+								<button
+									on:click={changeVisiblePaymentInfo}
+									class="flex-grow border-slate-300 py-2 px-1 text-xl focus:outline-none {$visiblePayment
+										? 'border-b-2 border-red-200 font-bold'
+										: 'font-normal '}">Оплата</button
+								>
+							</h2>
+							<h2>
+								<button
+									on:click={changeVisibleDeliveryInfo}
+									class="flex-grow border-slate-300 py-2 px-1 text-xl focus:outline-none {$visibleDelivery
+										? 'border-b-2 border-red-200 font-bold'
+										: 'font-normal '}">Доставка</button
+								>
+							</h2>
 						</div>
 
 						{#if $visibleDescription}
@@ -108,22 +114,27 @@
 								<p class="mb-4 leading-relaxed ">Описание товара отсутствует</p>
 							{/if}
 						{:else if $visiblePayment}
+							<p class="mb-4 leading-relaxed">Мы предлагаем следующие варианты оплаты:</p>
 							<p class="mb-4 leading-relaxed">
-								Предлагаем следующие варианты оплаты: <br />
-								- наличными курьеру при получении товара;<br />
-								- картой через терминал, либо наличными в нашем офисе;<br />
-								- безналичный расчет (через банк для юридических лиц). Мы отправим счёт на оплату с нашими
-								реквизитами на указанный вами электронный адрес. Доставка (самовывоз) товара осуществляется
-								после получения денежных средств на наш расчётный счёт.
+								• Оплата наличными курьеру при получении товара<br />
+								• Оплата картой через терминал или наличными в нашем офисе<br />
+								• Банковский перевод (для юридических лиц). Мы отправим счет с вашими платежными реквизитами
+								на указанный вами адрес электронной почты. Доставка (или самовывоз) товара будет организована
+								после того, как мы получим платеж на счет.<br />
 							</p>
 						{:else if $visibleDelivery}
-							<p class="mb-4 leading-relaxed">
-								Для удобства мы предлагаем доставку товара на адрес объекта.
-								<br />Наша компания осуществляет доставку строительных и отделочных материалов как
-								по Дзержинску, так и по Нижнему Новгороду и области. Стоимость доставки по
-								Дзержинску составляет 450 рублей до 1500 кг, в Нижний Новгород от 1200 рублей. Более
-								подробную информацию о стоимости за пределы города вы можете уточнить у менеджеров.
-							</p>
+							<div class="mb-4 leading-relaxed">
+								<p>
+									Доставка компании «Орбита-Строй» осуществляется следующими способами: <br />
+									• Самовывоз (с базы в г. Дзержинск);<br />
+									• Доставка по Нижнему Новгороду и области от 1 200 рублей (подробности уточняйте у
+									менеджеров);<br />
+									• Доставка бесплатная, при заказе товаров более, чем на 15 000 рублей.<br />
+									Доставка осуществляется по графику (пн - сб)<br />
+									Наша компания предлагает услуги разгрузки и подъема на этаж (оплачивается отдельно)<br
+									/>
+								</p>
+							</div>
 						{/if}
 
 						<a data-sveltekit-prefetch href="/products/{data.product.product_one.parent.slug}">

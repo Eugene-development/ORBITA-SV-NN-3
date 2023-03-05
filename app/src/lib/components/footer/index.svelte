@@ -45,15 +45,15 @@
 	</div>
 
 	<footer class="bg-gray-900" aria-labelledby="footerHeading">
-		<h2 id="footerHeading" class="sr-only">Footer</h2>
+		<!-- <h2 id="footerHeading" class="sr-only">Footer</h2> -->
 		<div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
 			<div class="xl:grid xl:grid-cols-3 xl:gap-8">
 				<div class="grid grid-cols-2 gap-8 xl:col-span-2">
 					<div class="md:grid md:grid-cols-1">
 						<div>
-							<h3 class="text-lg font-semibold uppercase tracking-wider text-gray-400">
+							<!-- <h3 class="text-lg font-semibold uppercase tracking-wider text-gray-400">
 								Контакты:
-							</h3>
+							</h3> -->
 							<div class="mt-4 space-y-3">
 								<p class="text-base text-gray-100 hover:text-white">
 									г. Дзержинск, пр. Ленина, д. 121-В
@@ -141,9 +141,9 @@
 
 					<div class="md:grid md:grid-cols-2 md:gap-8">
 						<div>
-							<h3 class="text-lg font-semibold uppercase tracking-wider text-gray-400">
+							<!-- <h3 class="text-lg font-semibold uppercase tracking-wider text-gray-400">
 								Клиентам:
-							</h3>
+							</h3> -->
 							<ul class="mt-4 space-y-4">
 								<li class="flow-root">
 									<a
@@ -247,9 +247,9 @@
 							</ul>
 						</div>
 						<div class="mt-12 md:mt-0">
-							<h3 class="text-lg font-semibold uppercase tracking-wider text-gray-400">
+							<!-- <h3 class="text-lg font-semibold uppercase tracking-wider text-gray-400">
 								Партнёрам:
-							</h3>
+							</h3> -->
 
 							<!-- <ul class="mt-4 space-y-4">
 								<li class="flow-root">
@@ -352,9 +352,9 @@
 					</div>
 				</div>
 				<div class="mt-8 xl:mt-0">
-					<h3 class="text-lg font-semibold uppercase tracking-wider text-gray-400">
+					<!-- <h3 class="text-lg font-semibold uppercase tracking-wider text-gray-400">
 						Подписаться на новости
-					</h3>
+					</h3> -->
 					<p class="mt-4 text-base text-gray-300">
 						Будьте в курсе новинок и спец предложений на строительные материалы от нашей компании.
 					</p>
