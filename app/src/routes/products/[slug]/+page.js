@@ -11,7 +11,7 @@ export async function load({ data }) {
 	// 	data.category.category_one.value +
 	// 	'" в Нижнем Новгороде по выгодной цене';
 
-	const title = data.category.category_one.value + '|' + 'Интернет-магазин «Орбита-Строй»';
+	const title = data.category.category_one.value + ' | ' + 'Интернет-магазин «Орбита-Строй»';
 	const description =
 		'Магазин стройматериалов «Орбита-Строй» предлагает купить ' +
 		data.category.category_one.value +

@@ -3,7 +3,7 @@ import { pageH1 } from '$lib/store/stores.js';
 
 export async function load({ data }) {
 	const { rubric } = data;
-	const title = data.rubric.rubric_one.value + '|' + 'Интернет-магазин «Орбита-Строй»';
+	const title = data.rubric.rubric_one.value + ' | ' + 'Интернет-магазин «Орбита-Строй»';
 	// const title =
 	// 	data.rubric.rubric_one.value +
 	// 	' от базы Орбита-Строй' +

@@ -3,7 +3,7 @@ import { pageH1 } from '$lib/store/stores.js';
 
 export async function load({ data }) {
 	const { catalog } = data;
-	const title = data.catalog.catalog_one.value + '|' + 'Интернет-магазин «Орбита-Строй»';
+	const title = data.catalog.catalog_one.value + ' | ' + 'Интернет-магазин «Орбита-Строй»';
 
 	// const title =
 	// 	"База стройматериалов 'Орбита-Строй' || " +
