@@ -10,7 +10,7 @@
 </script>
 
 {#if true}
-<!-- {#if $visibleCatalog} -->
+	<!-- {#if $visibleCatalog} -->
 	<div class="mt-4 bg-white pb-4 sm:pb-6">
 		<div class="relative">
 			<div class="absolute inset-0 h-1/2 border-b border-slate-200 bg-white" />
@@ -34,6 +34,11 @@
 							</a>
 						{/each}
 					</div>
+					<div class="mb-2 mt-2 lg:mt-0 text-lg md:text-2xl text-gray-800 text-center lg:text-left">
+						<span class="text-red-800">Наши</span> цены сэкономят
+						<span class="text-red-800">Ваши</span> деньги
+					</div>
+
 					<div
 						class="hidden rounded-lg bg-white shadow-md shadow-gray-700/50 lg:grid lg:grid-cols-6"
 					>
