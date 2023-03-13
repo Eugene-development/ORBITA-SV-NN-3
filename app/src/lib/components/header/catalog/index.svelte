@@ -4,30 +4,8 @@
 	import { useInvert } from '$lib/functions/broker';
 	const { invert } = useInvert;
 
-	// Import Swiper
-	import { Navigation, Pagination, Scrollbar, A11y, Autoplay } from 'swiper';
-	import { Swiper, SwiperSlide } from 'swiper/svelte';
-	import 'swiper/css';
-	import 'swiper/css/navigation';
-	import 'swiper/css/pagination';
-	import 'swiper/css/scrollbar';
-	import { contentActions } from '$lib/data/actions';
-	import MonthProduct from '$lib/components/monthProduct/index.svelte';
-
 	export let catalog;
 </script>
-
-<Swiper
-	modules={[Scrollbar, A11y, Autoplay]}
-	autoplay={{ delay: 6000 }}
-	spaceBetween={40}
-	pagination={{ clickable: true }}
-	scrollbar={{ draggable: true, hide: true }}
->
-	{#each contentActions.actions as dataSlider}
-		<SwiperSlide><MonthProduct {dataSlider} /></SwiperSlide>
-	{/each}
-</Swiper>
 
 {#if true}
 	<!-- {#if $visibleCatalog} -->
@@ -44,7 +22,7 @@
 								data-sveltekit-noscroll
 								href="/rubric/{slug}"
 								on:click={() => visibleCatalog.update(invert)}
-								class="flex flex-col border border-gray-200 bg-gradient-to-tr from-indigo-500 via-indigo-900 to-indigo-700 px-4 py-1 text-center hover:bg-gradient-to-bl sm:border-r sm:border-l"
+								class="flex flex-col border border-gray-200 bg-gradient-to-tr from-indigo-500 via-indigo-900 to-indigo-700 px-4 py-2 text-center hover:bg-gradient-to-bl sm:border-r sm:border-l"
 							>
 								<span
 									class="order-2 text-sm font-medium leading-6 tracking-wider text-white antialiased"
@@ -67,7 +45,7 @@
 								data-sveltekit-prefetch
 								data-sveltekit-noscroll
 								href="/rubric/{slug}"
-								class="flex flex-col  border border-gray-200 p-3 text-center hover:border-red-800 hover:bg-gradient-to-l hover:from-red-900 hover:via-red-800 hover:to-red-900 sm:border-r sm:border-l 
+								class="flex flex-col  border border-gray-200 p-4 text-center hover:border-red-800 hover:bg-gradient-to-l hover:from-red-900 hover:via-red-800 hover:to-red-900 sm:border-r sm:border-l 
 								{$page.url.pathname === '/shop/rubric/' + slug
 									? 'bg-gradient-to-r from-red-900 via-red-800 to-red-900'
 									: 'bg-gradient-to-r from-indigo-900 via-indigo-800 to-indigo-900'}"
