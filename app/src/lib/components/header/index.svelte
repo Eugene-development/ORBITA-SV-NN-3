@@ -11,6 +11,6 @@
 <header>
 	<Top />
 	<Nav {informationMenu} />
-	<!-- <Hero /> -->
+	<Hero />
 	<Catalog {catalog} />
 </header>
