@@ -1,17 +1,17 @@
 <div class="ml-8 mt-16 text-center text-base">
 	<div>
-		<h2 class="text-base font-semibold uppercase tracking-wide text-indigo-600">это интересно</h2>
+		<!-- <h2 class="text-base font-semibold uppercase tracking-wide text-indigo-600">это интересно</h2> -->
 		<h3 class="mt-2 text-4xl font-extrabold leading-8 tracking-tight text-indigo-900 sm:text-5xl">
-			Отзывы о нас
+			Отзывы
 		</h3>
 	</div>
 </div>
 
-<section class="my-12 bg-gray-800">
+<section class="mt-12 bg-gray-800">
 	<div class="md:grid md:grid-cols-2">
 		<div class="py-12 px-12 md:flex md:flex-col md:border-r md:border-indigo-900 md:py-16 ">
 			<div class="text-2xl text-gray-100 md:flex-shrink-0">
-				<h2>ООО "РемСтройМонтаж"</h2>
+				<span>ООО "РемСтройМонтаж"</span>
 				<!--            <img class="h-12" src="https://tailwindui.com/img/logos/tuple-logo-indigo-300.svg" alt="Tuple">-->
 			</div>
 			<blockquote class="mt-6 md:flex md:flex-grow md:flex-col">
@@ -49,7 +49,7 @@
 		</div>
 		<div class="border-t-2 py-12 px-12 md:border-t-0 md:border-l md:py-16 ">
 			<div class="text-2xl text-gray-100 md:flex-shrink-0">
-				<h2>ООО "ПСГ" Химрегион</h2>
+				<span>ООО "ПСГ" Химрегион</span>
 				<!--            <img class="h-12" src="https://tailwindui.com/img/logos/workcation-logo-indigo-300.svg" alt="Workcation">-->
 			</div>
 			<blockquote class="mt-6 md:flex md:flex-grow md:flex-col">

@@ -41,6 +41,6 @@
 <!-- <MonthProduct /> -->
 <Actual {...data.contentActions} />
 <!-- <Slider /> -->
-<Testimonials />
-<Message />
 <Article />
+<Message />
+<Testimonials />
