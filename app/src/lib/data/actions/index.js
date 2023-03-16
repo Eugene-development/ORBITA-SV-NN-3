@@ -1,44 +1,44 @@
 const actions = [
 	{
-		id: '448',
-		action: 'Шпаклевка гипсовая "ЕК" к 300 (20 кг)',
-		price: '536',
+		id: '450',
+		action: 'Шпаклевка "ек" vh-80 фасадная белая (20 кг)',
+		price: '597',
 		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/product/spaklevka-gipsovaya-ek-k-300-20-kg',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-K300.png'
+		link: '/product/spaklevka-ek-vh-80-fasadnaya-belaya-20-kg',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-VH80.png'
 	},
-	{
-		id: '261',
-		action: 'ГВЛВ "Кнауф" 10 мм (1200*2500)',
-		price: '683',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/product/gvlv-knauf-10-mm-12002500',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B3%D0%B2%D0%BB.jpg'
-	},
-	{
-		id: '2810',
-		action: 'Цемент м500 Евроцемент 40 кг',
-		price: '368',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/product/cement-m500-evrocement-40-kg',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/AdAW50jMkTFDo4nUhEaxZUdxUkShNu2kf6HS4cMo.png'
-	},
-	{
-		id: '965',
-		action: 'ЭПП xps30-200 Техноплекс 1180*580*50-l',
-		price: '292',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/product/epp-xps30-200-texnopleks-118058050-l',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/XPS-%D0%A2%D0%95%D0%A5%D0%9D%D0%9E%D0%9F%D0%9B%D0%95%D0%9A%D0%A1.png'
-	},
-	{
-		id: '964',
-		action: 'ЭПП xps30-200 Техноплекс 1180*580*30-l',
-		price: '187',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/product/epp-xps30-200-texnopleks-118058030-l',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/XPS-%D0%A2%D0%95%D0%A5%D0%9D%D0%9E%D0%9F%D0%9B%D0%95%D0%9A%D0%A1.png'
-	},
+	// {
+	// 	id: '261',
+	// 	action: 'ГВЛВ "Кнауф" 10 мм (1200*2500)',
+	// 	price: '683',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/product/gvlv-knauf-10-mm-12002500',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B3%D0%B2%D0%BB.jpg'
+	// },
+	// {
+	// 	id: '2810',
+	// 	action: 'Цемент м500 Евроцемент 40 кг',
+	// 	price: '368',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/product/cement-m500-evrocement-40-kg',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/AdAW50jMkTFDo4nUhEaxZUdxUkShNu2kf6HS4cMo.png'
+	// },
+	// {
+	// 	id: '965',
+	// 	action: 'ЭПП xps30-200 Техноплекс 1180*580*50-l',
+	// 	price: '292',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/product/epp-xps30-200-texnopleks-118058050-l',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/XPS-%D0%A2%D0%95%D0%A5%D0%9D%D0%9E%D0%9F%D0%9B%D0%95%D0%9A%D0%A1.png'
+	// },
+	// {
+	// 	id: '964',
+	// 	action: 'ЭПП xps30-200 Техноплекс 1180*580*30-l',
+	// 	price: '187',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/product/epp-xps30-200-texnopleks-118058030-l',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/XPS-%D0%A2%D0%95%D0%A5%D0%9D%D0%9E%D0%9F%D0%9B%D0%95%D0%9A%D0%A1.png'
+	// },
 	// {
 	// 	id: '522',
 	// 	action: 'Грунтовка универсальная "ЕК" g200 (10 л)',
@@ -85,22 +85,22 @@ const actions = [
 	// 	link: '/product/nalivnoi-pol-ek-level-21-bystrotverdeyushhii-20-kg',
 	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-level-2.1.png'
 	// },
-	{
-		id: '1541',
-		action: 'Гкл "Кнауф" даногипс 9,5мм (1,2х2,5)',
-		price: '310',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/product/gkl-knauf-danogips-95mm-12x25',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/m5NgzpdlHX02sqR1Mqu3YrUQJwqqDGUOuAeYV75Z.jpeg'
-	},
-	{
-		id: '1543',
-		action: 'Гклв "Кнауф" даногипс 12,5мм (1,2х2,5)',
-		price: '423',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/product/gklv-knauf-danogips-125mm-12x25',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/lvfXJZnJe2ASRUHpI5X2dxVN30ZPHmVRFh0MDJyi.jpeg'
-	},
+	// {
+	// 	id: '1541',
+	// 	action: 'Гкл "Кнауф" даногипс 9,5мм (1,2х2,5)',
+	// 	price: '310',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/product/gkl-knauf-danogips-95mm-12x25',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/m5NgzpdlHX02sqR1Mqu3YrUQJwqqDGUOuAeYV75Z.jpeg'
+	// },
+	// {
+	// 	id: '1543',
+	// 	action: 'Гклв "Кнауф" даногипс 12,5мм (1,2х2,5)',
+	// 	price: '423',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/product/gklv-knauf-danogips-125mm-12x25',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/lvfXJZnJe2ASRUHpI5X2dxVN30ZPHmVRFh0MDJyi.jpeg'
+	// },
 	// {
 	// 	id: '1543',
 	// 	action: 'Гклв "Кнауф" даногипс 9,5мм (1,2х2,5)',
@@ -115,14 +115,14 @@ const actions = [
 	//     description: 'При заказе через сайт дополнительная скидка 5%',
 	//     link: '/product/stukaturnaya-smes-knauf-rotband-belaya-30-kg'
 	// },
-	{
-		id: '1661',
-		action: 'Утеплитель Технониколь роклайт 1200*600*50',
-		price: '834',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/product/uteplitel-texnonikol-roklait-120060050',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/c2eHGTqI7cLLb0g8nf4vlbuB6KENnH59Ukii45om.jpg'
-	},
+	// {
+	// 	id: '1661',
+	// 	action: 'Утеплитель Технониколь роклайт 1200*600*50',
+	// 	price: '834',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/product/uteplitel-texnonikol-roklait-120060050',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/c2eHGTqI7cLLb0g8nf4vlbuB6KENnH59Ukii45om.jpg'
+	// },
 	// {
 	// 	id: '307',
 	// 	action: 'Клей для плитки "Кнауф" флизенклебер (25 кг)',
@@ -133,11 +133,35 @@ const actions = [
 	// },
 	{
 		id: '228',
-		action: 'Плита осб-3 2500*1250*9мм Kronospan гост (влагостойкая)',
-		price: '489',
+		action: 'Плита осб-3 2500*1250*9мм Kronospan ГОСТ (влагостойкая)',
+		price: '438',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/product/plita-osb-3-250012509mm-Kronospan-gost-vlagostoikaya',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/ilejI7dCV3zr72h4VudvlNrQLKBgHsrYwKd1HoAL.jpeg'
+	},
+	{
+		id: '470',
+		action: 'Смесь сухая универсальная м-150 (25 кг)',
+		price: '104',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/product/smes-suxaya-universalnaya-m-150-25-kg',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/m150-500x500.png'
+	},
+	{
+		id: '473',
+		action: 'Пескобетон м-300 (25 кг)',
+		price: '135',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/product/peskobeton-m-300-25-kg',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BF%D0%B5%D1%81.jpg'
+	},
+	{
+		id: '2766',
+		action: 'Поликарбонат сотовый прозрачный 4мм',
+		price: '5747',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/product/polikarbonat-sotovyi-prozracnyi-4mm',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/lSHy2nYTCubCyXeSrG38YM8CD4DPL88MeYQzrSSw.png'
 	},
 	// {
 	// 	action: 'Утеплитель Технониколь роклайт 1200*600*100',
@@ -167,12 +191,40 @@ const actions = [
 	// 	description: 'При заказе через сайт дополнительная скидка 5%',
 	// 	link: '/product/stukaturnaya-smes-knauf-rotband-belaya-30-kg'
 	// },
-	// {
-	// 	action: 'Эпп xps30-200 техноплекс 1180*580*50-l',
-	// 	price: '265 рублей',
-	// 	description: 'При заказе через сайт дополнительная скидка 5%',
-	// 	link: '/product/epp-xps30-200-texnopleks-118058050-l'
-	// },
+	{
+		id: '965',
+		action: 'Эпп xps30-200 техноплекс 1180*580*50-l',
+		price: '292',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/product/epp-xps30-200-texnopleks-118058050-l',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BF%D0%B5%D1%81.jpg'
+	},
+	{
+		id: '70',
+		action: 'Утеплитель техновент стандарт (1200*600*50 мм), 0,216 м3',
+		price: '1658',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/product/uteplitel-texnovent-standart-120060050-mm-0216-m3',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D1%82.jpg'
+	},
+	{
+		id: '218',
+		action: 'Брус строганный 50*20*3000',
+		price: '73',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/product/brus-strogannyi-402030001',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B1%D1%80%D1%83%D1%81%D1%8C%D1%8F.jpg'
+	},
+
+	{
+		id: '223',
+		action: 'Брус строганный 50*40*3000',
+		price: '165',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/product/brus-strogannyi-50403000',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B1%D1%80%D1%83%D1%81%D1%8C%D1%8F.jpg'
+	},
+
 	// {
 	// 	action: 'Эпп xps30-200 техноплекс 1180*580*30-l',
 	// 	price: '179 рублей',
@@ -257,38 +309,46 @@ const actions = [
 	//     description: 'При заказе через сайт дополнительная скидка 5%',
 	//     link: '/product/sofit-izol-d-gidro-paroizolyaciya-15m-70-m2'
 	// },
+	// {
+	// 	id: '431',
+	// 	action: 'Штукатурная смесь "ЕК" tg 40 (30 кг)',
+	// 	price: '420',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/product/stukaturnaya-smes-ek-tg-40-30-kg',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TG40.png'
+	// },
+	// {
+	// 	id: '432',
+	// 	action: 'Штукатурная смесь "ЕК" tg 40 waite (30 кг)',
+	// 	price: '424',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/product/stukaturnaya-smes-ek-tg-40-waite-30-kg',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TG40-WHITE.png'
+	// },
 	{
-		id: '431',
-		action: 'Штукатурная смесь "ЕК" tg 40 (30 кг)',
-		price: '420',
+		id: '434',
+		action: 'Штукатурная смесь "ек" TT 30 фасадная (25 кг)',
+		price: '311',
 		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/product/stukaturnaya-smes-ek-tg-40-30-kg',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TG40.png'
-	},
-	{
-		id: '432',
-		action: 'Штукатурная смесь "ЕК" tg 40 waite (30 кг)',
-		price: '424',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/product/stukaturnaya-smes-ek-tg-40-waite-30-kg',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TG40-WHITE.png'
-	},
-	{
-		id: '463',
-		action: 'Наливной пол "ЕК" level 2.0 быстротвердеющий (20 кг)',
-		price: '396',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/product/nalivnoi-pol-ek-level-20-bystrotverdeyushhii-vlagostoikii-20-kg',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-level-2.0.png'
-	},
-	{
-		id: '464',
-		action: 'Наливной пол "ЕК" level 2.1 быстротвердеющий (20 кг)',
-		price: '396',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/product/nalivnoi-pol-ek-level-21-bystrotverdeyushhii-20-kg',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-level-2.1.png'
+		link: '/product/stukaturnaya-smes-ek-tt-30-fasadnaya-25-kg',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TT30.png'
 	}
+	// {
+	// 	id: '463',
+	// 	action: 'Наливной пол "ЕК" level 2.0 быстротвердеющий (20 кг)',
+	// 	price: '396',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/product/nalivnoi-pol-ek-level-20-bystrotverdeyushhii-vlagostoikii-20-kg',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-level-2.0.png'
+	// },
+	// {
+	// 	id: '464',
+	// 	action: 'Наливной пол "ЕК" level 2.1 быстротвердеющий (20 кг)',
+	// 	price: '396',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/product/nalivnoi-pol-ek-level-21-bystrotverdeyushhii-20-kg',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-level-2.1.png'
+	// }
 	// {
 	//     action: 'Пена пистолетная "kudo home 65" всесезонная',
 	//     price: '410 рублей',
