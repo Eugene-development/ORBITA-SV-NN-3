@@ -129,9 +129,9 @@
 				</nav>
 				<div class="bg-slate-50 px-4 py-8 sm:py-12 sm:px-6 lg:px-8 xl:pl-12">
 					<div>
-						<h3 class="text-sm font-medium uppercase tracking-wide text-slate-500">
+						<!-- <h3 class="text-sm font-medium uppercase tracking-wide text-slate-500">
 							Последнее из блога
-						</h3>
+						</h3> -->
 						<!--                                                <ul role="list" class="mt-6 space-y-6">-->
 						<!--                                                    <li class="flow-root">-->
 						<!--                                                        <a href="#" class="-m-3 p-3 flex rounded-lg hover:bg-slate-100">-->

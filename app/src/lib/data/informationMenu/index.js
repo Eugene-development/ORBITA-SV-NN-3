@@ -16,33 +16,33 @@ const informationMenu = [
 			{
 				displayName: 'Грузчики',
 				href: '/information/movers'
-			},
-			{
-				displayName: 'Документы',
-				href: '/information/documents'
 			}
+			// {
+			// 	displayName: 'Документы',
+			// 	href: '/information/documents'
+			// }
 		],
 		right: [
-			{
-				displayName: 'Цены',
-				href: '/information/price'
-			},
+			// {
+			// 	displayName: 'Цены',
+			// 	href: '/information/price'
+			// },
 			{
 				displayName: 'Отзывы',
 				href: '/information/testimonials'
 			},
-			{
-				displayName: 'Гарантии',
-				href: '/information/guarantees'
-			},
+			// {
+			// 	displayName: 'Гарантии',
+			// 	href: '/information/guarantees'
+			// },
 			{
 				displayName: 'Партнёрство',
 				href: '/information/partner'
-			},
-			{
-				displayName: 'Сертификаты',
-				href: '/information/certificates'
 			}
+			// {
+			// 	displayName: 'Сертификаты',
+			// 	href: '/information/certificates'
+			// }
 		]
 	}
 ];
