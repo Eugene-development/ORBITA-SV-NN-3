@@ -1,9 +1,9 @@
 <div class="ml-8 mt-16 text-center text-base">
 	<div>
 		<!-- <h2 class="text-base font-semibold uppercase tracking-wide text-indigo-600">это интересно</h2> -->
-		<h3 class="mt-2 text-4xl font-extrabold leading-8 tracking-tight text-indigo-900 sm:text-5xl">
+		<p class="mt-2 text-4xl font-extrabold leading-8 tracking-tight text-indigo-900 sm:text-5xl">
 			Отзывы
-		</h3>
+		</p>
 	</div>
 </div>
 

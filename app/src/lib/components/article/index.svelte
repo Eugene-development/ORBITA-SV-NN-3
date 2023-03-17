@@ -1,14 +1,14 @@
 <div class="bg-gray-800">
 	<div class="mx-auto py-12 px-8 sm:px-6 lg:flex lg:items-center lg:py-16 lg:px-12">
 		<div class="text-center lg:w-0 lg:flex-auto">
-			<h2
+			<p
 				id="newsletter-headline"
 				class="text-3xl font-extrabold tracking-tight text-white sm:text-4xl"
 			>
 				<span class="mb-6 block text-5xl text-indigo-400">"Орбита-Строй"</span>
 				<span class="block text-white">это интернет база строительно отделочных материалов</span>
 				<span class="block text-gray-100">в Нижнем Новгороде</span>
-			</h2>
+			</p>
 			<p class="mt-3 text-lg text-gray-300">
 				Осуществляем оптовую и розничную продажу и доставку стройматериалов со складов в Нижнем
 				Новгороде через наш сайт. Широкий ассортимент и доступные цены приятно вас удивят. При
