@@ -25,7 +25,7 @@
 <div class="bg-white">
 	<div class="mx-auto max-w-2xl mt-4 py-8 px-4 sm:py-12 sm:px-6 lg:max-w-full lg:px-8">
 		<h2 class="py-2 text-4xl text-center font-bold tracking-tight text-gray-900">
-			Популярные товары!
+			Популярные товары
 		</h2>
 		<p class="py-2 text-xl text-center tracking-tight text-gray-900">
 			При заказе через сайт дополнительная скидка 5%.

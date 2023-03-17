@@ -16,7 +16,7 @@
 							</h3> -->
 							<div class="mt-4 space-y-3">
 								<p class="text-base text-gray-100 hover:text-white">
-									г. Дзержинск, пр. Ленина, д. 121-В
+									Нижний Новгород, ул. Зеленхозовская 4-а
 								</p>
 								<div class="flex text-base text-gray-100 hover:text-white">
 									<svg
@@ -35,8 +35,26 @@
 									</svg>
 									8 (8313) 31-02-28
 								</div>
+								<div class="flex text-base text-gray-100 hover:text-white">
+									<svg
+										class="my-auto mr-2 h-5 w-5 text-red-800 hidden md:block"
+										xmlns="http://www.w3.org/2000/svg"
+										fill="none"
+										viewBox="0 0 24 24"
+										stroke="currentColor"
+										aria-hidden="true"
+									>
+										<path
+											stroke-divnecap="round"
+											stroke-divnejoin="round"
+											stroke-width="2"
+											d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+										/>
+									</svg>
+									nn@orbita-stroy.com
+								</div>
 
-								<p class="text-base text-gray-100 hover:text-white">
+								<!-- <p class="text-base text-gray-100 hover:text-white">
 									г. Дзержинск, ул. Космонавтов, 4-Б
 								</p>
 								<div class="flex text-base text-gray-100 hover:text-white">
@@ -55,7 +73,7 @@
 										/>
 									</svg>
 									8 (902) 303-36-54
-								</div>
+								</div> -->
 								<!--								<p class="flex text-base text-gray-100 hover:text-white">-->
 								<!--									<svg-->
 								<!--										class="my-auto mr-2 h-5 w-5 text-red-800 hidden md:block"-->
