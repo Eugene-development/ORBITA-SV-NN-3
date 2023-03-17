@@ -11,9 +11,9 @@
 				<div class="grid grid-cols-2 gap-8 xl:col-span-2">
 					<div class="md:grid md:grid-cols-1">
 						<div>
-							<!-- <h3 class="text-lg font-semibold uppercase tracking-wider text-gray-400">
+							<span class="text-lg font-semibold uppercase tracking-wider text-gray-400">
 								Контакты:
-							</h3> -->
+							</span>
 							<div class="mt-4 space-y-3">
 								<p class="text-base text-gray-100 hover:text-white">
 									Нижний Новгород, ул. Зеленхозовская 4-а
@@ -119,16 +119,15 @@
 
 					<div class="md:grid md:grid-cols-2 md:gap-8">
 						<div>
-							<!-- <h3 class="text-lg font-semibold uppercase tracking-wider text-gray-400">
+							<span class="text-lg font-semibold uppercase tracking-wider text-gray-400">
 								Клиентам:
-							</h3> -->
+							</span>
 							<ul class="mt-4 space-y-4">
-								<li class="flow-root">
+								<!-- <li class="flow-root">
 									<a
 										class="-m-3 flex items-center rounded-md py-2 text-base font-medium text-gray-900"
 										href="/information/partner/yurlica"
 									>
-										<!-- Heroicon name: information-circle -->
 										<svg
 											aria-hidden="true"
 											class="h-6 w-6 flex-shrink-0 text-gray-400"
@@ -146,7 +145,7 @@
 										</svg>
 										<span class="ml-1 md:ml-2 text-gray-300">Партнёры</span>
 									</a>
-								</li>
+								</li> -->
 
 								<li class="flow-root">
 									<a
@@ -330,9 +329,9 @@
 					</div>
 				</div>
 				<div class="mt-8 xl:mt-0">
-					<!-- <h3 class="text-lg font-semibold uppercase tracking-wider text-gray-400">
+					<span class="text-lg font-semibold uppercase tracking-wider text-gray-400">
 						Подписаться на новости
-					</h3> -->
+					</span>
 					<p class="mt-4 text-base text-gray-300">
 						Будьте в курсе новинок и спец предложений на строительные материалы от нашей компании.
 					</p>
