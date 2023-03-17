@@ -5,12 +5,12 @@
 			<div aria-hidden="true" class="absolute inset-x-0 top-0 h-1/2 bg-white lg:hidden" />
 			<div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:h-full lg:p-0">
 				<div
-					class="aspect-w-10 aspect-h-6 sm:aspect-w-16 sm:aspect-h-7 lg:aspect-none overflow-hidden rounded-xl shadow-2xl lg:h-full"
+					class="aspect-w-10 aspect-h-8 sm:aspect-w-20 sm:aspect-h-10 lg:aspect-none overflow-hidden rounded-xl shadow-2xl lg:h-full"
 				>
 					<img
-						class="object-contain lg:h-24"
-						src="https://storage.yandexcloud.net/brand-logo/orbita/job/45454545454454522323.webp"
-						alt=""
+						class="object-contain py-24 px-2 h-full w-full"
+						src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/logo/logo.png"
+						alt="интернет магазин стройматериалов"
 					/>
 				</div>
 			</div>

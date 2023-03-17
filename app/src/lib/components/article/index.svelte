@@ -62,7 +62,7 @@
 						<div class="aspect-w-12 aspect-h-7 lg:aspect-none">
 							<img
 								class="rounded-lg shadow-lg object-cover object-center"
-								src="https://storage.yandexcloud.net/brand-logo/orbita/job/45464656.webp"
+								src="https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/pages/serv_4.jpg"
 								alt="Стройматериалы в нижнем новгороде"
 								width="1184"
 								height="1376"
