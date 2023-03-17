@@ -149,7 +149,7 @@ const actions = [
 	},
 	{
 		id: '473',
-		action: 'Пескобетон м-300 (25 кг)',
+		action: 'Пескобетон м-300 (25 кг) Престиж',
 		price: '135',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/product/peskobeton-m-300-25-kg',
@@ -157,7 +157,7 @@ const actions = [
 	},
 	{
 		id: '2766',
-		action: 'Поликарбонат сотовый прозрачный 4мм',
+		action: 'Поликарбонат сотовый прозрачный 4мм (г. Богородск)',
 		price: '5747',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/product/polikarbonat-sotovyi-prozracnyi-4mm',
@@ -193,11 +193,11 @@ const actions = [
 	// },
 	{
 		id: '965',
-		action: 'Эпп xps30-200 техноплекс 1180*580*50-l',
+		action: 'Эпп технониколь 1180*580*50-l',
 		price: '292',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/product/epp-xps30-200-texnopleks-118058050-l',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%BF%D0%B5%D1%81.jpg'
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/XPS-%D0%A2%D0%95%D0%A5%D0%9D%D0%9E%D0%9F%D0%9B%D0%95%D0%9A%D0%A1.png'
 	},
 	{
 		id: '70',
