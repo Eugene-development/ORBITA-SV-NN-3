@@ -54,52 +54,45 @@
 										</tr>
 										<tr>
 											<td class="px-6 py-2 whitespace-nowrap text-sm font-medium text-gray-900">
-												Мешки до 30 кг
-											</td>
-											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 10 </td>
-											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 25 </td>
-										</tr>
-										<tr>
-											<td class="px-6 py-2 whitespace-nowrap text-sm font-medium text-gray-900">
 												Мешки 40-50 кг
 											</td>
-											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 10 </td>
-											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 25 </td>
+											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 20 </td>
+											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 30 </td>
 										</tr>
 										<tr>
 											<td class="px-6 py-2 whitespace-nowrap text-sm font-medium text-gray-900">
 												ГКЛ, ГКВЛ 10 мм (1,2*2,5)
 											</td>
-											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 10 </td>
 											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 25 </td>
+											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 45 </td>
 										</tr>
 										<tr>
 											<td class="px-6 py-2 whitespace-nowrap text-sm font-medium text-gray-900">
 												ГКЛ, ГКВЛ 12,5 мм (1,2*2,5)
 											</td>
-											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 10 </td>
-											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 25 </td>
+											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 30 </td>
+											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 50 </td>
 										</tr>
-										<tr>
+										<!-- <tr>
 											<td class="px-6 py-2 whitespace-nowrap text-sm font-medium text-gray-900">
 												ГКЛ 12,5 мм (1,2*3,0)
 											</td>
 											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 10 </td>
 											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 25 </td>
-										</tr>
+										</tr> -->
 										<tr>
 											<td class="px-6 py-2 whitespace-nowrap text-sm font-medium text-gray-900">
 												ГВЛВ 10 мм (1,2*2,5)
 											</td>
-											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 10 </td>
-											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 25 </td>
+											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 50 </td>
+											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 50 </td>
 										</tr>
 										<tr>
 											<td class="px-6 py-2 whitespace-nowrap text-sm font-medium text-gray-900">
 												ГВЛВ 12,5 мм (1,2*2,5)
 											</td>
-											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 10 </td>
-											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 25 </td>
+											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 40 </td>
+											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 60 </td>
 										</tr>
 										<tr>
 											<td class="px-6 py-2 whitespace-nowrap text-sm font-medium text-gray-900">
@@ -112,29 +105,29 @@
 											<td class="px-6 py-2 whitespace-nowrap text-sm font-medium text-gray-900">
 												Профиль (5 шт)
 											</td>
-											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 10 </td>
-											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 25 </td>
+											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 15 </td>
+											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 30 </td>
 										</tr>
 										<tr>
 											<td class="px-6 py-2 whitespace-nowrap text-sm font-medium text-gray-900">
 												Маячки, уголки (10 шт)
 											</td>
-											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 10 </td>
-											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 25 </td>
+											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 15 </td>
+											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 30 </td>
 										</tr>
 										<tr>
 											<td class="px-6 py-2 whitespace-nowrap text-sm font-medium text-gray-900">
 												Фанера 1525*1525
 											</td>
-											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 10 </td>
-											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 25 </td>
+											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 20 </td>
+											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 30 </td>
 										</tr>
 										<tr>
 											<td class="px-6 py-2 whitespace-nowrap text-sm font-medium text-gray-900">
 												Плита OSB-3 (2,5*1,25*9 мм)
 											</td>
-											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 10 </td>
-											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 25 </td>
+											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 20 </td>
+											<td class="px-6 py-2 whitespace-nowrap text-sm text-gray-500"> 35 </td>
 										</tr>
 										<tr>
 											<td class="px-6 py-2 whitespace-nowrap text-sm font-medium text-gray-900">
