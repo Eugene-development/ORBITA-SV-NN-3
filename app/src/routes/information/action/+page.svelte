@@ -1,6 +1,8 @@
 <script>
 	/** @type {import('./$types').PageData} */
 	import Actions from '$lib/components/actions/index.svelte';
+	import Actual from '$lib/components/actual/index.svelte';
+
 	export let data;
 </script>
 
@@ -9,4 +11,5 @@
 	<meta name="description" content="Стройматериалы со скидкой в интернет-магазине «Орбита-Строй»" />
 </svelte:head>
 
-<Actions {...data.contentActions} />
+<Actions />
+<Actual {...data.contentActions} />

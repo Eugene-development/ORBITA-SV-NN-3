@@ -33,7 +33,7 @@
 
 		<div class="p-8">
 			<ul class="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 ">
-				{#each actions as { id, action, price, description, link, img }}
+				{#each actions as { id, action, price, description, unit, link, img }}
 					<li
 						class="transition ease-in-out hover:scale-105 col-span-1 flex flex-col divide-y divide-slate-200 rounded-lg border-2 border-slate-100 bg-white text-center shadow-lg shadow-slate-500/50 ring-1 ring-slate-100 ring-offset-1"
 					>
@@ -64,8 +64,7 @@
 										{#if price}
 											<span
 												class="rounded-full bg-indigo-900 px-3  py-1.5 text-base font-medium text-slate-100"
-												>{price}
-												р</span
+												>{price} руб.</span
 											>
 										{:else}
 											<span

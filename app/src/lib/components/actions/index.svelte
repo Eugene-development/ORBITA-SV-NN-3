@@ -3,7 +3,7 @@
 
 	// pageTitle.update(() => 'Акции');
 
-	export let actions;
+	// export let actions;
 </script>
 
 <svelte:head>
@@ -73,7 +73,7 @@
 	</div>
 </div>
 
-<div>
+<!-- <div>
 	{#each actions as { action, price, description, link }}
 		<div class=" py-8 sm:py-12">
 			<div class="relative sm:py-16">
@@ -203,4 +203,4 @@
 			</div>
 		</div>
 	{/each}
-</div>
+</div> -->
