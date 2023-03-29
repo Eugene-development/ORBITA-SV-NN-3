@@ -21,6 +21,7 @@ export async function load({ data }) {
 	// 	'.';
 
 	// pageH1.update(() => data.catalog.catalog_one.value);
+	pageH1.update(() => 'Интернет магазин стройматериалов "Орбита-Строй"');
 
 	return { title, description, catalog };
 }

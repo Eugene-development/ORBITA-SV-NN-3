@@ -2,7 +2,7 @@
 import { pageH1 } from '$lib/store/stores.js';
 
 export async function load() {
-	pageH1.update(() => 'О нашей компании');
+	pageH1.update(() => 'Компания');
 
 	return {};
 }

@@ -22,4 +22,4 @@ export const slideTwo = writable(true);
 export const slideThree = writable(false);
 export const slideFour = writable(false);
 
-export const pageH1 = writable('');
+export const pageH1 = writable('Интернет магазин стройматериалов "Орбита-Строй"');

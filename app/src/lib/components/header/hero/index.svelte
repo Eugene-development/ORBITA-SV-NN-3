@@ -5,8 +5,7 @@
 <div class="max-w-9xl mx-auto mt-2 px-4 sm:px-6 lg:px-8">
 	<div class="mx-auto  text-center">
 		<h1 class="py-2 text-2xl font-bold text-indigo-900 antialiased sm:text-3xl lg:text-4xl">
-			<!-- {$pageH1} -->
-			Интернет магазин стройматериалов "Орбита-Строй"
+			{$pageH1}
 		</h1>
 		<!-- <img
 			class="inset-0 mt-2 h-64 w-full object-cover"

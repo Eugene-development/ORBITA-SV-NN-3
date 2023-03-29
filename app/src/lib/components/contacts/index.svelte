@@ -1,21 +1,4 @@
-<script>
-	// import { pageTitle } from '$stores/store.js';
-
-	// pageTitle.update(() => 'Контакты');
-</script>
-
-<!-- <svelte:head>
-	<title
-		>Орбита-Строй || Контакты магазина и базы строительных и отделочных материалов в Дзержинске</title
-	>
-	<meta
-		name="description"
-		content="Контактная информация для связи с менеджерами Орбита-Строй - интернет-магазином стройматериалов в Дзержинске"
-	/>
-</svelte:head> -->
-
 <div>
-	<!-- This example requires Tailwind CSS v2.0+ -->
 	<div class="bg-white text-gray-800">
 		<div class="mx-auto max-w-7xl py-16 px-4 sm:px-6 lg:px-8">
 			<div class="mx-auto max-w-full md:grid md:max-w-none md:grid-cols-2 md:gap-8">
@@ -185,5 +168,4 @@
 			</div>
 		</div>
 	</div>
-
 </div>

@@ -23,5 +23,6 @@ export async function load({ data }) {
 	// 	' по низким ценам со скидками. Есть доставка.';
 	// pageH1.update(() => data.rubric.rubric_one.value);
 
+	pageH1.update(() => 'Интернет магазин стройматериалов "Орбита-Строй"');
 	return { title, description, rubric };
 }
