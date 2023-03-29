@@ -130,7 +130,7 @@
 									>
 										<svg
 											aria-hidden="true"
-											class="h-6 w-6 flex-shrink-0 text-gray-400"
+											class="h-5 w-5 flex-shrink-0 text-gray-400"
 											fill="none"
 											stroke="currentColor"
 											viewBox="0 0 24 24"
@@ -152,22 +152,21 @@
 										class="-m-3 flex items-center rounded-md py-2 text-base font-medium text-gray-900"
 										href="/information/delivery"
 									>
-										<!-- Heroicon name: office-building -->
 										<svg
-											aria-hidden="true"
-											class="h-6 w-6 flex-shrink-0 text-gray-400"
-											fill="none"
-											stroke="currentColor"
-											viewBox="0 0 24 24"
 											xmlns="http://www.w3.org/2000/svg"
+											fill="none"
+											viewBox="0 0 24 24"
+											stroke-width="1.5"
+											stroke="currentColor"
+											class="h-5 w-5 flex-shrink-0 text-gray-400"
 										>
 											<path
-												d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4"
 												stroke-linecap="round"
 												stroke-linejoin="round"
-												stroke-width="2"
+												d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12"
 											/>
 										</svg>
+
 										<span class="ml-1 md:ml-2 text-gray-300">Доставка</span>
 									</a>
 								</li>
@@ -177,20 +176,18 @@
 										class="-m-3 flex items-center rounded-md py-2 text-base font-medium text-gray-900"
 										href="/information/payment"
 									>
-										<!-- Heroicon name: newspaper -->
 										<svg
-											aria-hidden="true"
-											class="h-6 w-6 flex-shrink-0 text-gray-400"
-											fill="none"
-											stroke="currentColor"
-											viewBox="0 0 24 24"
 											xmlns="http://www.w3.org/2000/svg"
+											fill="none"
+											viewBox="0 0 24 24"
+											stroke-width="1.5"
+											stroke="currentColor"
+											class="h-5 w-5 flex-shrink-0 text-gray-400"
 										>
 											<path
-												d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"
 												stroke-linecap="round"
 												stroke-linejoin="round"
-												stroke-width="2"
+												d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
 											/>
 										</svg>
 										<span class="ml-1 md:ml-2 text-gray-300">Оплата</span>
@@ -202,23 +199,50 @@
 										class="-m-3 flex items-center rounded-md py-2 text-base font-medium text-gray-900"
 										href="/information/testimonials"
 									>
-										<!-- Heroicon name: briefcase -->
 										<svg
-											aria-hidden="true"
-											class="h-6 w-6 flex-shrink-0 text-gray-400"
-											fill="none"
-											stroke="currentColor"
-											viewBox="0 0 24 24"
 											xmlns="http://www.w3.org/2000/svg"
+											fill="none"
+											viewBox="0 0 24 24"
+											stroke-width="1.5"
+											stroke="currentColor"
+											class="h-5 w-5 flex-shrink-0 text-gray-400"
 										>
 											<path
-												d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
 												stroke-linecap="round"
 												stroke-linejoin="round"
-												stroke-width="2"
+												d="M19 7.5v3m0 0v3m0-3h3m-3 0h-3m-2.25-4.125a3.375 3.375 0 11-6.75 0 3.375 3.375 0 016.75 0zM4 19.235v-.11a6.375 6.375 0 0112.75 0v.109A12.318 12.318 0 0110.374 21c-2.331 0-4.512-.645-6.374-1.766z"
 											/>
 										</svg>
+
 										<span class="ml-1 md:ml-2 text-gray-300">Отзывы</span>
+									</a>
+								</li>
+								<li class="flow-root">
+									<a
+										class="-m-3 flex items-center rounded-md py-2 text-base font-medium text-gray-900"
+										href="/information/action"
+									>
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											fill="none"
+											viewBox="0 0 24 24"
+											stroke-width="1.5"
+											stroke="currentColor"
+											class="h-5 w-5 flex-shrink-0 text-gray-400"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0 016.038 7.048 8.287 8.287 0 009 9.6a8.983 8.983 0 013.361-6.867 8.21 8.21 0 003 2.48z"
+											/>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1A3.75 3.75 0 0012 18z"
+											/>
+										</svg>
+
+										<span class="ml-1 md:ml-2 text-gray-300">Акции</span>
 									</a>
 								</li>
 							</ul>
@@ -236,7 +260,7 @@
 									>
 										<svg
 											aria-hidden="true"
-											class="h-6 w-6 flex-shrink-0 text-gray-400"
+											class="h-5 w-5 flex-shrink-0 text-gray-400"
 											fill="none"
 											stroke="currentColor"
 											viewBox="0 0 24 24"
@@ -260,7 +284,7 @@
 									>
 										<svg
 											aria-hidden="true"
-											class="h-6 w-6 flex-shrink-0 text-gray-400"
+											class="h-5 w-5 flex-shrink-0 text-gray-400"
 											fill="none"
 											stroke="currentColor"
 											viewBox="0 0 24 24"
@@ -284,7 +308,7 @@
 									>
 										<svg
 											aria-hidden="true"
-											class="h-6 w-6 flex-shrink-0 text-gray-400"
+											class="h-5 w-5 flex-shrink-0 text-gray-400"
 											fill="none"
 											stroke="currentColor"
 											viewBox="0 0 24 24"
@@ -308,7 +332,7 @@
 									>
 										<svg
 											aria-hidden="true"
-											class="h-6 w-6 flex-shrink-0 text-gray-400"
+											class="h-5 w-5 flex-shrink-0 text-gray-400"
 											fill="none"
 											stroke="currentColor"
 											viewBox="0 0 24 24"
