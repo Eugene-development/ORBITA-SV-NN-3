@@ -42,7 +42,6 @@
 					>
 						{#each catalog as { slug, name }}
 							<a
-								data-sveltekit-prefetch
 								data-sveltekit-noscroll
 								href="/rubric/{slug}"
 								class="flex flex-col  border border-gray-200 p-4 text-center hover:border-red-800 hover:bg-gradient-to-l hover:from-red-900 hover:via-red-800 hover:to-red-900 sm:border-r sm:border-l 
