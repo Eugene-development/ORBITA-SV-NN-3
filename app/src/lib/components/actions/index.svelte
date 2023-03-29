@@ -14,7 +14,7 @@
 <div class="py-8 sm:py-12">
 	<div class="relative sm:py-16">
 		<div aria-hidden="true" class="hidden sm:block">
-			<div class="absolute inset-y-0 left-0 w-1/2 bg-gray-50 rounded-r-3xl" />
+			<div class="absolute inset-y-0 left-0 w-1/2 bg-gray-100 rounded-r-3xl" />
 			<svg
 				class="absolute top-8 left-1/2 -ml-3"
 				width="404"
