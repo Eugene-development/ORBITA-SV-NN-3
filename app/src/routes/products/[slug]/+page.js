@@ -22,6 +22,7 @@ export async function load({ data }) {
 	// 	'Продажа оптом и в розницу физическим и юридическим лицам.';
 	const pathAWS = import.meta.env.VITE_IMAGE_PRODUCTS;
 	// pageH1.update(() => data.category.category_one.value);
+	pageH1.update(() => 'Интернет магазин стройматериалов "Орбита-Строй"');
 
 	return { title, description, category, pathAWS };
 }

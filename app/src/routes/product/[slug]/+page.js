@@ -21,7 +21,8 @@ export async function load({ data }) {
 	// 	' в наличии с доставкой по Нижнему Новгороду и региону. Работаем по субботам и праздникам.';
 
 	const pathAWS = import.meta.env.VITE_IMAGE_PRODUCTS;
-	pageH1.update(() => data.product.product_one.value);
+	// pageH1.update(() => data.product.product_one.value);
+	pageH1.update(() => 'Интернет магазин стройматериалов "Орбита-Строй"');
 
 	return { title, description, product, pathAWS };
 }
