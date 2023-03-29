@@ -1,6 +1,7 @@
 <script>
 	/** @type {import('./$types').PageData} */
 	import Company from '$lib/components/about/index.svelte';
+	import Team from '$lib/components/team/index.svelte';
 	// export let data;
 </script>
 
@@ -13,3 +14,4 @@
 </svelte:head>
 
 <Company />
+<Team />
