@@ -6,32 +6,26 @@
 	let InCart;
 	idProductsInCart.subscribe((value) => (InCart = value));
 
+	// const sendToCart = async (id) => {
+	// 	if (browser && localStorage.getItem('inCart') === null) {
+	// 		browser && localStorage.setItem('inCart', JSON.stringify([id]));
+	// 	} else {
+	// 		const itemsCart = JSON.parse(localStorage.getItem('inCart'));
+	// 		const newItemsCart = [...itemsCart, id];
+	// 		localStorage.setItem('inCart', JSON.stringify(newItemsCart));
+	// 	}
+
+	// 	const productsInCart = JSON.parse(localStorage.getItem('inCart'));
+	// 	lengthCart.update(() => productsInCart.length);
+	// 	idProductsInCart.update(() => productsInCart);
+	// };
 	const sendToCart = async (id) => {
-		if (browser && localStorage.getItem('inCart') === null) {
-			browser && localStorage.setItem('inCart', JSON.stringify([id]));
-		} else {
-			const itemsCart = JSON.parse(localStorage.getItem('inCart'));
-			const newItemsCart = [...itemsCart, id];
-			localStorage.setItem('inCart', JSON.stringify(newItemsCart));
-		}
+		const itemsCart = JSON.parse(localStorage.getItem('inCart') || '[]');
+		const newItemsCart = [...itemsCart, id];
+		localStorage.setItem('inCart', JSON.stringify(newItemsCart));
 
-		const productsInCart = JSON.parse(localStorage.getItem('inCart'));
-		lengthCart.update(() => productsInCart.length);
-		idProductsInCart.update(() => productsInCart);
-
-		// const url = `/store-cart`;
-		// const payloadCart = {
-		// 	product_id: id,
-		// 	sessionUser: localStorage.getItem('session_user')
-		// };
-		// const domain = import.meta.env.VITE_API_CART;
-		// const apiCart = {
-		// 	baseURL: `${domain}`,
-		// 	headers: {
-		// 		Authorization: `Bearer ${import.meta.env.VITE_TOKEN}`
-		// 	}
-		// };
-		// await axios.post(url, payloadCart, apiCart);
+		lengthCart.update(() => newItemsCart.length);
+		idProductsInCart.update(() => newItemsCart);
 	};
 
 	export let data;
@@ -50,37 +44,75 @@
 			</span> -->
 
 			<nav class="flex mb-6" aria-label="Breadcrumb">
-				<div  class="flex items-center space-x-4 mx-auto">
+				<div class="flex items-center space-x-4 mx-auto">
 					<div>
 						<div>
 							<a href="/" class="text-slate-500 hover:text-slate-600">
-							<svg class="h-6 w-6 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path fill-rule="evenodd" d="M9.293 2.293a1 1 0 011.414 0l7 7A1 1 0 0117 11h-1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-3a1 1 0 00-1-1H9a1 1 0 00-1 1v3a1 1 0 01-1 1H5a1 1 0 01-1-1v-6H3a1 1 0 01-.707-1.707l7-7z" clip-rule="evenodd" />
-							</svg>
-							<span class="sr-only">Главная</span>
+								<svg
+									class="h-6 w-6 flex-shrink-0"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M9.293 2.293a1 1 0 011.414 0l7 7A1 1 0 0117 11h-1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-3a1 1 0 00-1-1H9a1 1 0 00-1 1v3a1 1 0 01-1 1H5a1 1 0 01-1-1v-6H3a1 1 0 01-.707-1.707l7-7z"
+										clip-rule="evenodd"
+									/>
+								</svg>
+								<span class="sr-only">Главная</span>
 							</a>
 						</div>
 					</div>
 
 					<div class="hidden md:block">
 						<div class="flex items-center">
-							<svg class="h-5 w-5 flex-shrink-0 text-slate-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+							<svg
+								class="h-5 w-5 flex-shrink-0 text-slate-500"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+									clip-rule="evenodd"
+								/>
 							</svg>
-							<a  data-sveltekit-prefetch
-							    data-sveltekit-noscroll
-								href="/rubric/{data.category.category_one.parent.parent.slug}" class="ml-4 text-base md:text-xl font-medium text-slate-600 ">{data.category.category_one.parent.parent.value}</a>
+							<a
+								data-sveltekit-prefetch
+								data-sveltekit-noscroll
+								href="/rubric/{data.category.category_one.parent.parent.slug}"
+								class="ml-4 text-base md:text-xl font-medium text-slate-600 "
+								>{data.category.category_one.parent.parent.value}</a
+							>
 						</div>
 					</div>
-					
+
 					<div>
 						<div class="flex items-center">
-							<svg class="h-5 w-5 flex-shrink-0 text-slate-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+							<svg
+								class="h-5 w-5 flex-shrink-0 text-slate-500"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+									clip-rule="evenodd"
+								/>
 							</svg>
-							<a  data-sveltekit-prefetch
-							    data-sveltekit-noscroll
-								href="/category/{data.category.category_one.parent.slug}" class="ml-4 text-base md:text-xl font-medium text-slate-600 ">{data.category.category_one.parent.value}</a>
+							<a
+								data-sveltekit-prefetch
+								data-sveltekit-noscroll
+								href="/category/{data.category.category_one.parent.slug}"
+								class="ml-4 text-base md:text-xl font-medium text-slate-600 "
+								>{data.category.category_one.parent.value}</a
+							>
 						</div>
 					</div>
 
@@ -92,7 +124,6 @@
 							<span class="ml-4 text-base md:text-xl font-medium text-slate-600 ">{data.category.category_one.value}</span>
 						</div>
 					</div> -->
-
 				</div>
 			</nav>
 
@@ -106,9 +137,6 @@
 		</div>
 	</div>
 </div>
-
-
-
 
 <div class="bg-gradient-to-b from-white  to-slate-50">
 	<div class="p-8">
@@ -254,44 +282,35 @@
 		</ul>
 	</div>
 
-
-
-
-
-
-
-
-
 	<div class="relative mx-auto mt-8 max-w-7xl px-4 sm:px-6 lg:mt-8 lg:px-8">
-			<div class="mx-auto max-w-md lg:max-w-7xl">
-				<div class="rounded-lg bg-slate-50 px-6 py-8 sm:p-10 lg:flex lg:items-center">
-					<!--            <div v-for="(text, idx) of head.text" :key="text.id" class="rounded-lg bg-slate-50 px-6 py-8 sm:p-10 lg:flex lg:items-center">-->
-					<div class="flex-1">
-						<div class="-mx-2">
-							<h2
-								class="inline-flex rounded-full bg-white px-4 py-1 text-xl font-semibold tracking-wide text-slate-800"
-							>
-								 {data.category.category_one.value} со склада в Нижнем Новгороде. Цены, ассортимент и дополнительные услуги.
-							</h2>
-						</div>
+		<div class="mx-auto max-w-md lg:max-w-7xl">
+			<div class="rounded-lg bg-slate-50 px-6 py-8 sm:p-10 lg:flex lg:items-center">
+				<!--            <div v-for="(text, idx) of head.text" :key="text.id" class="rounded-lg bg-slate-50 px-6 py-8 sm:p-10 lg:flex lg:items-center">-->
+				<div class="flex-1">
+					<div class="-mx-2">
+						<h2
+							class="inline-flex rounded-full bg-white px-4 py-1 text-xl font-semibold tracking-wide text-slate-800"
+						>
+							{data.category.category_one.value} со склада в Нижнем Новгороде. Цены, ассортимент и дополнительные
+							услуги.
+						</h2>
+					</div>
 
-					{#each data.category.category_one?.text as {key, value}}
-						{#if key === '11' }
-						<div class="mt-8 text-lg text-slate-600">{@html value}</div>
+					{#each data.category.category_one?.text as { key, value }}
+						{#if key === '11'}
+							<div class="mt-8 text-lg text-slate-600">{@html value}</div>
 						{/if}
 					{/each}
-					</div>
-				</div>
-				<div class="mt-6 rounded-md shadow lg:flex-shrink-0">
-					<a
-						href="/information/action"
-						class="flex items-center justify-center rounded-md border border-transparent bg-slate-50 px-5 py-3 text-base font-medium text-slate-900 hover:bg-slate-100"
-					>
-						{data.category.category_one.value} по низким ценам с доставкой в Нижнем Новгороде. Звоните!
-					</a>
 				</div>
 			</div>
+			<div class="mt-6 rounded-md shadow lg:flex-shrink-0">
+				<a
+					href="/information/action"
+					class="flex items-center justify-center rounded-md border border-transparent bg-slate-50 px-5 py-3 text-base font-medium text-slate-900 hover:bg-slate-100"
+				>
+					{data.category.category_one.value} по низким ценам с доставкой в Нижнем Новгороде. Звоните!
+				</a>
+			</div>
 		</div>
-			
-
+	</div>
 </div>

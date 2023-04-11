@@ -134,7 +134,7 @@ const actions = [
 	{
 		id: '228',
 		action: 'Плита осб-3 2500*1250*9мм Kronospan ГОСТ (влагостойкая)',
-		price: '438',
+		price: '480',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/product/plita-osb-3-250012509mm-Kronospan-gost-vlagostoikaya',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/ilejI7dCV3zr72h4VudvlNrQLKBgHsrYwKd1HoAL.jpeg'
