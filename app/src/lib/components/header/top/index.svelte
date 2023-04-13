@@ -51,11 +51,11 @@
 								stroke-linejoin="round"
 							/>
 						</svg>
-						<a href="tel:+79023033654" class="rounded-md pr-2 mt-0.5 text-lg font-medium text-white"
-							>8 (902) 303-36-54</a
+						<a href="tel:+78005502135" class="rounded-md pr-2 mt-0.5 text-lg font-medium text-white"
+							>8 (800) 550-21-35</a
 						>
 
-						<svg
+						<!-- <svg
 							class="h-7 w-7 text-red-500"
 							fill="none"
 							stroke="currentColor"
@@ -68,10 +68,10 @@
 								stroke-linecap="round"
 								stroke-linejoin="round"
 							/>
-						</svg>
-						<a href="tel:+79306888862" class="rounded-md pr-2 mt-0.5 text-lg font-medium text-white"
+						</svg> -->
+						<!-- <a href="tel:+79306888862" class="rounded-md pr-2 mt-0.5 text-lg font-medium text-white"
 							>8 (930) 688-88-62</a
-						>
+						> -->
 
 						<svg
 							class="h-8 w-8 text-red-500"
@@ -285,11 +285,11 @@
 					</svg>
 					<a
 						class="rounded-md pl-1 text-sm font-medium text-gray-200 sm:text-base md:text-lg"
-						href="tel:+79023033654">8 902-303-36-54</a
+						href="tel:+79023033654">8 (800) 550-21-35</a
 					>
 				</div>
 
-				<div class="flex">
+				<!-- <div class="flex">
 					<svg
 						class="h-6 w-6 text-red-500 "
 						fill="none"
@@ -308,7 +308,7 @@
 						class="rounded-md pl-1 text-sm font-medium text-gray-200 sm:text-base md:text-lg"
 						href="tel:+79306888862">8 930-688-88-62</a
 					>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>

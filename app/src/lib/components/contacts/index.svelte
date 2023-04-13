@@ -32,7 +32,7 @@
 								</svg>
 							</div>
 							<div class="ml-3 text-base">
-								<p>8 (902) 303-36-54</p>
+								<p>+7 (800) 550-21-35</p>
 							</div>
 						</div>
 						<div class="mt-6 flex">
