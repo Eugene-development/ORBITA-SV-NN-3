@@ -120,7 +120,7 @@
 					<div class="md:grid md:grid-cols-2 md:gap-8">
 						<div>
 							<span class="text-lg font-semibold uppercase tracking-wider text-gray-400">
-								Клиентам:
+								Информация:
 							</span>
 							<ul class="mt-4 space-y-4">
 								<!-- <li class="flow-root">
@@ -146,53 +146,6 @@
 										<span class="ml-1 md:ml-2 text-gray-300">Партнёры</span>
 									</a>
 								</li> -->
-
-								<li class="flow-root">
-									<a
-										class="-m-3 flex items-center rounded-md py-2 text-base font-medium text-gray-900"
-										href="/information/delivery"
-									>
-										<svg
-											xmlns="http://www.w3.org/2000/svg"
-											fill="none"
-											viewBox="0 0 24 24"
-											stroke-width="1.5"
-											stroke="currentColor"
-											class="h-5 w-5 flex-shrink-0 text-gray-400"
-										>
-											<path
-												stroke-linecap="round"
-												stroke-linejoin="round"
-												d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12"
-											/>
-										</svg>
-
-										<span class="ml-1 md:ml-2 text-gray-300">Доставка</span>
-									</a>
-								</li>
-
-								<li class="flow-root">
-									<a
-										class="-m-3 flex items-center rounded-md py-2 text-base font-medium text-gray-900"
-										href="/information/payment"
-									>
-										<svg
-											xmlns="http://www.w3.org/2000/svg"
-											fill="none"
-											viewBox="0 0 24 24"
-											stroke-width="1.5"
-											stroke="currentColor"
-											class="h-5 w-5 flex-shrink-0 text-gray-400"
-										>
-											<path
-												stroke-linecap="round"
-												stroke-linejoin="round"
-												d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
-											/>
-										</svg>
-										<span class="ml-1 md:ml-2 text-gray-300">Оплата</span>
-									</a>
-								</li>
 
 								<li class="flow-root">
 									<a
@@ -245,110 +198,82 @@
 										<span class="ml-1 md:ml-2 text-gray-300">Акции</span>
 									</a>
 								</li>
+								<li class="flow-root">
+									<a
+										class="-m-3 flex items-center rounded-md py-2 text-base font-medium text-gray-900"
+										href="/information/contact"
+									>
+										<svg
+											xmlns="http://www.w3.org/2000/svg"
+											fill="none"
+											viewBox="0 0 24 24"
+											stroke-width="1.5"
+											stroke="currentColor"
+											class="h-5 w-5 flex-shrink-0 text-gray-400"
+										>
+											<path
+												stroke-linecap="round"
+												stroke-linejoin="round"
+												d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21"
+											/>
+										</svg>
+
+										<span class="ml-1 md:ml-2 text-gray-300">Контакты</span>
+									</a>
+								</li>
 							</ul>
 						</div>
 						<div class="mt-12 md:mt-0">
-							<!-- <h3 class="text-lg font-semibold uppercase tracking-wider text-gray-400">
-								Партнёрам:
-							</h3> -->
+							<h3 class="text-lg font-semibold uppercase tracking-wider text-gray-400">Услуги:</h3>
 
-							<!-- <ul class="mt-4 space-y-4">
+							<ul class="mt-4 space-y-4">
 								<li class="flow-root">
 									<a
 										class="-m-3 flex items-center rounded-md py-2 text-base font-medium text-gray-900"
-										href="/information/yurlica"
+										href="/information/delivery"
 									>
 										<svg
-											aria-hidden="true"
-											class="h-5 w-5 flex-shrink-0 text-gray-400"
-											fill="none"
-											stroke="currentColor"
-											viewBox="0 0 24 24"
 											xmlns="http://www.w3.org/2000/svg"
+											fill="none"
+											viewBox="0 0 24 24"
+											stroke-width="1.5"
+											stroke="currentColor"
+											class="h-5 w-5 flex-shrink-0 text-gray-400"
 										>
 											<path
-												d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"
 												stroke-linecap="round"
 												stroke-linejoin="round"
-												stroke-width="2"
+												d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12"
 											/>
 										</svg>
-										<span class="ml-1 md:ml-2 text-gray-300">Юр. лица</span>
+
+										<span class="ml-1 md:ml-2 text-gray-300">Доставка</span>
 									</a>
 								</li>
 
 								<li class="flow-root">
 									<a
 										class="-m-3 flex items-center rounded-md py-2 text-base font-medium text-gray-900"
-										href="/information/brigadi"
+										href="/information/payment"
 									>
 										<svg
-											aria-hidden="true"
-											class="h-5 w-5 flex-shrink-0 text-gray-400"
-											fill="none"
-											stroke="currentColor"
-											viewBox="0 0 24 24"
 											xmlns="http://www.w3.org/2000/svg"
+											fill="none"
+											viewBox="0 0 24 24"
+											stroke-width="1.5"
+											stroke="currentColor"
+											class="h-5 w-5 flex-shrink-0 text-gray-400"
 										>
 											<path
-												d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9a9 9 0 019-9"
 												stroke-linecap="round"
 												stroke-linejoin="round"
-												stroke-width="2"
+												d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z"
 											/>
 										</svg>
-										<span class="ml-1 md:ml-2 text-gray-300">Стройбригады</span>
+										<span class="ml-1 md:ml-2 text-gray-300">Оплата</span>
 									</a>
 								</li>
-
-								<li class="flow-root">
-									<a
-										class="-m-3 flex items-center rounded-md py-2 text-base font-medium text-gray-900"
-										href="/information/ip"
-									>
-										<svg
-											aria-hidden="true"
-											class="h-5 w-5 flex-shrink-0 text-gray-400"
-											fill="none"
-											stroke="currentColor"
-											viewBox="0 0 24 24"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<path
-												d="M16 4v12l-4-2-4 2V4M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"
-												stroke-linecap="round"
-												stroke-linejoin="round"
-												stroke-width="2"
-											/>
-										</svg>
-										<span class="ml-1 md:ml-2 text-gray-300">Продавцы</span>
-									</a>
-								</li>
-
-								<li class="flow-root">
-									<a
-										class="-m-3 flex items-center rounded-md py-2 text-base font-medium text-gray-900"
-										href="/information/fizlica"
-									>
-										<svg
-											aria-hidden="true"
-											class="h-5 w-5 flex-shrink-0 text-gray-400"
-											fill="none"
-											stroke="currentColor"
-											viewBox="0 0 24 24"
-											xmlns="http://www.w3.org/2000/svg"
-										>
-											<path
-												d="M9.75 17L9 20l-1 1h8l-1-1-.75-3M3 13h18M5 17h14a2 2 0 002-2V5a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
-												stroke-linecap="round"
-												stroke-linejoin="round"
-												stroke-width="2"
-											/>
-										</svg>
-										<span class="ml-1 md:ml-2 text-gray-300">Физ. лица</span>
-									</a>
-								</li>
-							</ul> -->
+							</ul>
 						</div>
 					</div>
 				</div>
