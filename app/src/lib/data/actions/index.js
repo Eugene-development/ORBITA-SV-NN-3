@@ -1,5 +1,21 @@
 const actions = [
 	{
+		id: '999',
+		action: 'Вагонка евро ель (ав) (13*90*6000)',
+		price: '254',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/product/vagonka-evro-el-av-13906000',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/6d31cfdd66e3b68441275e5bd3968168.jpeg'
+	},
+	{
+		id: '1003',
+		action: 'Имитация бруса ель ав (185*21*6000)',
+		price: '535',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/product/imitaciya-brusa-el-av-185216000',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/Imitacija-Brusa-copy.jpg'
+	},
+	{
 		id: '450',
 		action: 'Шпаклевка "ек" vh-80 фасадная белая (20 кг)',
 		price: '597',
