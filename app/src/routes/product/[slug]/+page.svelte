@@ -148,7 +148,11 @@
 
 						<div class="flex border-t border-slate-200 py-2">
 							<span class="text-slate-500">Единица измерения:</span>
-							<span class="ml-auto text-slate-900">{data.product.product_one.unit.value}</span>
+							{#if data.product.product_one.unit}
+								<span class="ml-auto text-slate-900">{data.product.product_one.unit.value}</span>
+							{:else}
+								<span class="ml-auto text-slate-900">Не указано</span>
+							{/if}
 						</div>
 						<div class="mb-6 flex border-t border-b border-slate-200 py-2">
 							<span class="text-slate-500">В наличии:</span>
