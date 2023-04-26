@@ -131,14 +131,14 @@ const actions = [
 	//     description: 'При заказе через сайт дополнительная скидка 5%',
 	//     link: '/product/stukaturnaya-smes-knauf-rotband-belaya-30-kg'
 	// },
-	// {
-	// 	id: '1661',
-	// 	action: 'Утеплитель Технониколь роклайт 1200*600*50',
-	// 	price: '834',
-	// 	description: 'При заказе через сайт дополнительная скидка 5%',
-	// 	link: '/product/uteplitel-texnonikol-roklait-120060050',
-	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/c2eHGTqI7cLLb0g8nf4vlbuB6KENnH59Ukii45om.jpg'
-	// },
+	{
+		id: '1661',
+		action: 'Утеплитель Технониколь роклайт 1200*600*50',
+		price: '834',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/product/uteplitel-texnonikol-roklait-120060050',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/c2eHGTqI7cLLb0g8nf4vlbuB6KENnH59Ukii45om.jpg'
+	},
 	// {
 	// 	id: '307',
 	// 	action: 'Клей для плитки "Кнауф" флизенклебер (25 кг)',
@@ -179,6 +179,15 @@ const actions = [
 		link: '/product/polikarbonat-sotovyi-prozracnyi-4mm',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/lSHy2nYTCubCyXeSrG38YM8CD4DPL88MeYQzrSSw.png'
 	},
+	{
+		id: '436',
+		action: 'Штукатурная смесь "Кнауф ротбанд" белая (30 кг)',
+		price: '495',
+		description: 'При заказе через сайт дополнительная скидка 5%',
+		link: '/product/stukaturnaya-smes-knauf-rotband-belaya-30-kg',
+		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/020_original.jpg'
+	},
+
 	// {
 	// 	action: 'Утеплитель Технониколь роклайт 1200*600*100',
 	// 	price: '1190 рубля',
@@ -215,18 +224,18 @@ const actions = [
 		link: '/product/epp-xps30-200-texnopleks-118058050-l',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/XPS-%D0%A2%D0%95%D0%A5%D0%9D%D0%9E%D0%9F%D0%9B%D0%95%D0%9A%D0%A1.png'
 	},
-	{
-		id: '70',
-		action: 'Утеплитель техновент стандарт (1200*600*50 мм), 0,216 м3',
-		price: '1658',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/product/uteplitel-texnovent-standart-120060050-mm-0216-m3',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D1%82.jpg'
-	},
+	// {
+	// 	id: '70',
+	// 	action: 'Утеплитель техновент стандарт (1200*600*50 мм), 0,216 м3',
+	// 	price: '1658',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/product/uteplitel-texnovent-standart-120060050-mm-0216-m3',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%B2%D0%B5%D0%BD%D1%82.jpg'
+	// },
 	{
 		id: '218',
 		action: 'Брус строганный 50*20*3000',
-		price: '73',
+		price: '91',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/product/brus-strogannyi-402030001',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D0%B1%D1%80%D1%83%D1%81%D1%8C%D1%8F.jpg'
@@ -344,7 +353,7 @@ const actions = [
 	{
 		id: '434',
 		action: 'Штукатурная смесь "ек" TT 30 фасадная (25 кг)',
-		price: '311',
+		price: '260',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/product/stukaturnaya-smes-ek-tt-30-fasadnaya-25-kg',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TT30.png'
