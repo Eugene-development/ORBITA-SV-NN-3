@@ -10,6 +10,22 @@
 		visibleDelivery
 	} from '$lib/store/stores.js';
 
+	const changeVisibleDescriptionInfo = () => {
+		visibleDescription.update(() => true);
+		visiblePayment.update(() => false);
+		visibleDelivery.update(() => false);
+	};
+	const changeVisiblePaymentInfo = () => {
+		visibleDescription.update(() => false);
+		visiblePayment.update(() => true);
+		visibleDelivery.update(() => false);
+	};
+	const changeVisibleDeliveryInfo = () => {
+		visibleDescription.update(() => false);
+		visiblePayment.update(() => false);
+		visibleDelivery.update(() => true);
+	};
+
 	const sendToCart = async (id) => {
 		if (browser && localStorage.getItem('inCart') === null) {
 			browser && localStorage.setItem('inCart', JSON.stringify([id]));
@@ -38,21 +54,6 @@
 		await axios.post(url, payloadCart, apiCart);
 	};
 
-	const changeVisibleDescriptionInfo = () => {
-		visibleDescription.update(() => true);
-		visiblePayment.update(() => false);
-		visibleDelivery.update(() => false);
-	};
-	const changeVisiblePaymentInfo = () => {
-		visibleDescription.update(() => false);
-		visiblePayment.update(() => true);
-		visibleDelivery.update(() => false);
-	};
-	const changeVisibleDeliveryInfo = () => {
-		visibleDescription.update(() => false);
-		visiblePayment.update(() => false);
-		visibleDelivery.update(() => true);
-	};
 	export let data;
 </script>
 
@@ -62,7 +63,7 @@
 </svelte:head>
 
 <div>
-	<div>
+	<div class="px-4">
 		<!--        <div id="start" class="p-10 mx-auto sm:px-6 lg:px-8 bg-gradient-to-r from-slate-50 via-white to-slate-50 shadow-md shadow-slate-200/50 mb-4">-->
 		<!--            <div class="flex flex-col text-center w-full">-->
 		<!--                <h1 class=" text-4xl font-medium title-font text-slate-900 lowercase first-letter:uppercase">{ nameProduct }</h1>-->
@@ -70,40 +71,35 @@
 		<!--        </div>-->
 
 		<section class="body-font overflow-hidden text-slate-600">
-			<div class="container mx-auto px-8 py-12">
+			<div class="container mx-auto py-12">
 				<div class="mx-auto flex flex-wrap">
 					<div class="mb-6 w-full lg:mb-0 lg:w-1/2 lg:py-6 lg:pr-12">
-						<!-- <h2 class="title-font text-base tracking-widest text-red-500">НАИМЕНОВАНИЕ</h2> -->
+						<h2 class="title-font text-base tracking-widest text-red-500">НАИМЕНОВАНИЕ</h2>
 						<h1
 							class="title-font my-4 text-xl font-medium lowercase text-slate-900 first-letter:uppercase"
 						>
 							{data.product.product_one.value}
+							<!-- {data.product.product_one.value}-{data.product.product_one.id} -->
 						</h1>
-						<div class="mb-4 flex justify-between">
-							<h2>
-								<button
-									on:click={changeVisibleDescriptionInfo}
-									class="flex-grow border-slate-300  py-2 px-1 text-xl focus:outline-none {$visibleDescription
-										? 'border-b-2 border-red-200 font-bold'
-										: 'font-normal'}">Описание</button
-								>
-							</h2>
-							<h2>
-								<button
-									on:click={changeVisiblePaymentInfo}
-									class="flex-grow border-slate-300 py-2 px-1 text-xl focus:outline-none {$visiblePayment
-										? 'border-b-2 border-red-200 font-bold'
-										: 'font-normal '}">Оплата</button
-								>
-							</h2>
-							<h2>
-								<button
-									on:click={changeVisibleDeliveryInfo}
-									class="flex-grow border-slate-300 py-2 px-1 text-xl focus:outline-none {$visibleDelivery
-										? 'border-b-2 border-red-200 font-bold'
-										: 'font-normal '}">Доставка</button
-								>
-							</h2>
+						<div class="mb-4 flex">
+							<button
+								on:click={changeVisibleDescriptionInfo}
+								class="flex-grow border-slate-300  py-2 px-1 text-lg focus:outline-none {$visibleDescription
+									? 'border-b-2 font-bold'
+									: 'font-normal'}">Описание</button
+							>
+							<button
+								on:click={changeVisiblePaymentInfo}
+								class="flex-grow border-slate-300 py-2 px-1 text-lg focus:outline-none {$visiblePayment
+									? 'border-b-2 font-bold'
+									: 'font-normal '}">Оплата</button
+							>
+							<button
+								on:click={changeVisibleDeliveryInfo}
+								class="flex-grow border-slate-300 py-2 px-1 text-lg focus:outline-none {$visibleDelivery
+									? 'border-b-2 font-bold'
+									: 'font-normal '}">Доставка</button
+							>
 						</div>
 
 						{#if $visibleDescription}
@@ -114,33 +110,28 @@
 								<p class="mb-4 leading-relaxed ">Описание товара отсутствует</p>
 							{/if}
 						{:else if $visiblePayment}
-							<p class="mb-4 leading-relaxed">Мы предлагаем следующие варианты оплаты:</p>
 							<p class="mb-4 leading-relaxed">
-								• Оплата наличными курьеру при получении товара<br />
-								• Оплата картой через терминал или наличными в нашем офисе<br />
-								• Банковский перевод (для юридических лиц). Мы отправим счет с вашими платежными реквизитами
-								на указанный вами адрес электронной почты. Доставка (или самовывоз) товара будет организована
-								после того, как мы получим платеж на счет.<br />
+								Предлагаем следующие варианты оплаты: <br />
+								- наличными курьеру при получении товара;<br />
+								- картой через терминал, либо наличными в нашем офисе;<br />
+								- безналичный расчет (через банк для юридических лиц). Мы отправим счёт на оплату с нашими
+								реквизитами на указанный вами электронный адрес. Доставка (самовывоз) товара осуществляется
+								после получения денежных средств на наш расчётный счёт.
 							</p>
 						{:else if $visibleDelivery}
-							<div class="mb-4 leading-relaxed">
-								<p>
-									Доставка компании «Орбита-Строй» осуществляется следующими способами: <br />
-									• Самовывоз (с базы в г. Дзержинск);<br />
-									• Доставка по Нижнему Новгороду и области от 1 200 рублей (подробности уточняйте у
-									менеджеров);<br />
-									• Доставка бесплатная, при заказе товаров более, чем на 15 000 рублей.<br />
-									Доставка осуществляется по графику (пн - сб)<br />
-									Наша компания предлагает услуги разгрузки и подъема на этаж (оплачивается отдельно)<br
-									/>
-								</p>
-							</div>
+							<p class="mb-4 leading-relaxed">
+								Для удобства мы предлагаем доставку товара на адрес объекта.
+								<br />Наша компания осуществляет доставку строительных и отделочных материалов как
+								по Дзержинску, так и по Нижнему Новгороду и области. Стоимость доставки по
+								Дзержинску составляет 450 рублей до 1500 кг, в Нижний Новгород от 1200 рублей. Более
+								подробную информацию о стоимости за пределы города вы можете уточнить у менеджеров.
+							</p>
 						{/if}
 
-						<a data-sveltekit-prefetch href="/products/{data.product.product_one.parent.slug}">
+						<a data-sveltekit-prefetch href="/shop/products/{data.product.product_one.parent.slug}">
 							<div class="flex border-t border-slate-200 py-2">
-								<span class="text-slate-500">Категория:</span>
-								<span class="ml-auto text-sm text-red-500 hover:text-red-600"
+								<span class="text-slate-500">Вернуться в категорию:</span>
+								<span class="ml-auto text-base text-red-500 hover:text-red-600"
 									>{data.product.product_one.parent.value}</span
 								>
 							</div>
@@ -148,11 +139,9 @@
 
 						<div class="flex border-t border-slate-200 py-2">
 							<span class="text-slate-500">Единица измерения:</span>
-							{#if data.product.product_one.unit}
-								<span class="ml-auto text-slate-900">{data.product.product_one.unit.value}</span>
-							{:else}
-								<span class="ml-auto text-slate-900">Не указано</span>
-							{/if}
+							<span class="ml-auto text-slate-900"
+								>{data.product.product_one.unit?.value || 'Не указана'}</span
+							>
 						</div>
 						<div class="mb-6 flex border-t border-b border-slate-200 py-2">
 							<span class="text-slate-500">В наличии:</span>
@@ -161,13 +150,13 @@
 						<div class="flex">
 							{#if data.product.product_one.price}
 								<span
-									class="title-font rounded-2xl bg-indigo-900 py-2 px-4 text-lg font-medium text-slate-100"
+									class="title-font rounded-2xl bg-cyan-900 py-2 px-4 text-lg font-medium text-slate-100"
 									>{data.product.product_one.price?.value} р/{data.product.product_one.unit
-										.value}.</span
+										?.value || ''}.</span
 								>
 							{:else}
 								<span
-									class="title-font rounded-2xl bg-indigo-900 py-2 px-4 text-lg font-medium text-slate-100"
+									class="title-font rounded-2xl bg-cyan-900 py-2 px-4 text-lg font-medium text-slate-100"
 									>Цена не указана</span
 								>
 							{/if}
@@ -198,7 +187,7 @@
 								<span class="" />
 							{:else}
 								<div
-									class="ml-auto flex items-center justify-center rounded-md border border-transparent bg-indigo-900 py-2 px-6 text-base font-medium text-slate-100 "
+									class="ml-auto flex items-center justify-center rounded-md border border-transparent bg-cyan-900 py-2 px-6 text-base font-medium text-slate-100 "
 								>
 									<svg
 										class="h-5 w-5 text-red-400"
@@ -229,7 +218,7 @@
 						</div>
 					</div>
 
-					{#if data.product.product_one.image.hash}
+					{#if data.product.product_one.image?.hash}
 						<img
 							alt="ecommerce"
 							class="max-w-xl rounded border-2 border-slate-50 object-contain object-center p-8 shadow-lg shadow-slate-500/50 ring-1 ring-slate-50 ring-offset-1 lg:w-1/2"
