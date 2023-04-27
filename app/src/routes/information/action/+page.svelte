@@ -1,7 +1,7 @@
 <script>
 	/** @type {import('./$types').PageData} */
 	import Actions from '$lib/components/actions/index.svelte';
-	import Actual from '$lib/components/actual/index.svelte';
+	import Actual from '../action/components/actual/index.svelte';
 
 	export let data;
 </script>
