@@ -30,7 +30,7 @@
 					<li
 						class="transition ease-in-out hover:scale-105 col-span-1 flex flex-col divide-y divide-slate-200 rounded-lg border-2 border-slate-100 bg-white text-center shadow-lg shadow-slate-500/50 ring-1 ring-slate-100 ring-offset-1"
 					>
-						<a data-sveltekit-prefetch href={link}>
+						<a href={link}>
 							<div class="flex flex-1 flex-col p-8">
 								{#if img}
 									<img
