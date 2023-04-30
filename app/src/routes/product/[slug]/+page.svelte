@@ -74,13 +74,13 @@
 			<div class="container mx-auto py-12">
 				<div class="mx-auto flex flex-wrap">
 					<div class="mb-6 w-full lg:mb-0 lg:w-1/2 lg:py-6 lg:pr-12">
-						<h2 class="title-font text-base tracking-widest text-red-500">НАИМЕНОВАНИЕ</h2>
-						<h1
+						<p class="title-font text-base tracking-widest text-red-500">НАИМЕНОВАНИЕ</p>
+						<h2
 							class="title-font my-4 text-xl font-medium lowercase text-slate-900 first-letter:uppercase"
 						>
 							{data.product.product_one.value}
 							<!-- {data.product.product_one.value}-{data.product.product_one.id} -->
-						</h1>
+						</h2>
 						<div class="mb-4 flex">
 							<button
 								on:click={changeVisibleDescriptionInfo}
@@ -144,8 +144,21 @@
 							>
 						</div>
 						<div class="mb-6 flex border-t border-b border-slate-200 py-2">
-							<span class="text-slate-500">В наличии:</span>
-							<span class="ml-auto text-slate-900">Уточняйте у менеджера</span>
+							<span class="text-slate-500">Наличие:</span>
+							<span class="flex ml-auto text-slate-900"
+								>В наличии
+								<svg
+									class="flex-shrink-0 w-5 h-5 ml-2 mt-1 text-green-500 dark:text-green-400"
+									fill="currentColor"
+									viewBox="0 0 20 20"
+									xmlns="http://www.w3.org/2000/svg"
+									><path
+										fill-rule="evenodd"
+										d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z"
+										clip-rule="evenodd"
+									/></svg
+								>
+							</span>
 						</div>
 						<div class="flex">
 							{#if data.product.product_one.price}
