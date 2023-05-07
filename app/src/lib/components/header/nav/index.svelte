@@ -84,11 +84,16 @@
 					<a class="text-base text-indigo-900 hover:text-red-800 " href="/">Главная</a>
 					<a class="text-base text-indigo-900 hover:text-red-800" href="/company">Компания</a>
 					<Information {informationMenu} />
-					<a class="text-base text-indigo-900 hover:text-red-800" href="/blog"> Блог </a>
+					<a class="text-base text-indigo-900 hover:text-red-800" href="/information/payment">
+						Оплата
+					</a>
+					<!-- <a class="text-base text-indigo-900 hover:text-red-800" href="/blog"> Блог </a> -->
 					<a class="text-base text-indigo-900 hover:text-red-800" href="/information/action"
 						>Акции</a
 					>
-					<a class="text-base text-indigo-900 hover:text-red-800" href="/information/contact"> Контакты </a>
+					<a class="text-base text-indigo-900 hover:text-red-800" href="/information/contact">
+						Контакты
+					</a>
 					<!-- svelte-ignore security-anchor-rel-noreferrer -->
 					<a
 						class="text-base text-indigo-900 hover:text-red-800"
