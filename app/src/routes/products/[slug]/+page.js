@@ -6,10 +6,7 @@ export async function load({ data }) {
 	const { category } = data;
 	let title;
 	let description;
-	if (
-		category.category_one.seoTitle.value === 'test' ||
-		category.category_one.seoTitle.value === null
-	) {
+	if (category.category_one.seoTitle === null || category.category_one.seoTitle.value === 'test') {
 		// const title =
 		// 	"База стройматериалов 'Орбита-Строй'" +
 		// 	' || ' +
@@ -29,6 +26,19 @@ export async function load({ data }) {
 	} else {
 		title = category.category_one.seoTitle.value;
 	}
+
+	if (
+		category.category_one.seoDescription === null ||
+		category.category_one.seoDescription.value === 'test'
+	) {
+		description =
+			'Магазин стройматериалов «Орбита-Строй» предлагает купить ' +
+			data.category.category_one.value +
+			' по выгодной цене в Нижнем Новгороде оптом и в розницу, товары всегда в наличии. Осуществляем доставку по городу и области.';
+	} else {
+		description = category.category_one.seoDescription.value;
+	}
+
 	const pathAWS = import.meta.env.VITE_IMAGE_PRODUCTS;
 	// pageH1.update(() => data.category.category_one.value);
 	pageH1.update(() => 'Интернет магазин стройматериалов "Орбита-Строй"');
