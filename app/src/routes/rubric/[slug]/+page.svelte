@@ -15,15 +15,25 @@
 				Раздел
 			</span> -->
 			<nav class="flex mb-6" aria-label="Breadcrumb">
-				<div  class="flex items-center space-x-4 mx-auto">
+				<div class="flex items-center space-x-4 mx-auto">
 					<div>
 						<div>
 							<a href="/" class="text-slate-500 hover:text-slate-600">
-							<!-- Heroicon name: mini/home -->
-							<svg class="h-6 w-6 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path fill-rule="evenodd" d="M9.293 2.293a1 1 0 011.414 0l7 7A1 1 0 0117 11h-1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-3a1 1 0 00-1-1H9a1 1 0 00-1 1v3a1 1 0 01-1 1H5a1 1 0 01-1-1v-6H3a1 1 0 01-.707-1.707l7-7z" clip-rule="evenodd" />
-							</svg>
-							<span class="sr-only">Главная</span>
+								<!-- Heroicon name: mini/home -->
+								<svg
+									class="h-6 w-6 flex-shrink-0"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M9.293 2.293a1 1 0 011.414 0l7 7A1 1 0 0117 11h-1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-3a1 1 0 00-1-1H9a1 1 0 00-1 1v3a1 1 0 01-1 1H5a1 1 0 01-1-1v-6H3a1 1 0 01-.707-1.707l7-7z"
+										clip-rule="evenodd"
+									/>
+								</svg>
+								<span class="sr-only">Главная</span>
 							</a>
 						</div>
 					</div>
@@ -31,13 +41,24 @@
 					<div>
 						<div class="flex items-center">
 							<!-- Heroicon name: mini/chevron-right -->
-							<svg class="h-6 w-6 flex-shrink-0 text-slate-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+							<svg
+								class="h-6 w-6 flex-shrink-0 text-slate-500"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+									clip-rule="evenodd"
+								/>
 							</svg>
-							<span class="ml-4 text-base md:text-xl font-medium text-slate-600 ">{data.catalog.catalog_one.value}</span>
+							<span class="ml-4 text-base md:text-xl font-medium text-slate-600 "
+								>{data.catalog.catalog_one.value}</span
+							>
 						</div>
 					</div>
-
 				</div>
 			</nav>
 			<h1 class="text-4xl font-extrabold text-slate-800 sm:text-5xl lg:text-6xl">
@@ -103,14 +124,16 @@
 				<div class="rounded-lg bg-slate-50 px-6 py-8 sm:p-10 lg:flex lg:items-center">
 					<!--            <div v-for="(text, idx) of head.text" :key="text.id" class="rounded-lg bg-slate-50 px-6 py-8 sm:p-10 lg:flex lg:items-center">-->
 					<div class="flex-1">
-						<div>
+						<!-- <div>
 							<h2
 								class="inline-flex rounded-full bg-white px-4 py-1 text-2xl font-semibold tracking-wide text-slate-800"
 							>
-								 {data.catalog.catalog_one.value}. Цены, ассортимент и дополнительные услуги.
+								{data.catalog.catalog_one.value}. Цены, ассортимент и дополнительные услуги.
 							</h2>
+						</div> -->
+						<div class="mt-8 text-lg text-slate-600">
+							{@html data.catalog.catalog_one.text[0]?.value}
 						</div>
-						<div class="mt-8 text-lg text-slate-600">{@html data.catalog.catalog_one.text[0]?.value}</div>
 					</div>
 				</div>
 				<div class="mt-6 rounded-md shadow lg:flex-shrink-0">
