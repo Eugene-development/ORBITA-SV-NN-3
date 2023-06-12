@@ -26,9 +26,9 @@
 				связавшись с нами.
 			</p>
 		</div> -->
-		<div class="lg:grid lg:grid-cols-2 lg:gap-8 lg:items-start">
+		<div class="lg:grid lg:grid-cols-1 lg:gap-8 lg:items-start">
 			<div class="relative z-10">
-				<div class="prose prose-indigo text-gray-500 mx-auto lg:max-w-none">
+				<div class="prose prose-indigo text-gray-500 mx-auto">
 					<!-- <p>
 						Наша компания осуществляет доставку строительных и отделочных материалов как по
 						Дзержинску, так и по Нижнему Новгороду и области. Стоимость доставки по Дзержинску
