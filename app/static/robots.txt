@@ -1,5 +1,17 @@
-# https://www.robotstxt.org/robotstxt.html
-User-agent: *
-Disallow:
-Clean-param: id
-Clean-param: etext
+User-Agent: *
+Allow: */*.css
+Allow: */*.js
+Allow: */*.pdf
+Allow: */*.svg
+Allow: */*.webp
+Allow: */*.jpg
+Allow: */*.jpeg
+Allow: */*.png
+Disallow: /cgi-bin*
+Disallow: */?*  
+Disallow: /?
+Disallow: *?*
+Disallow: *?s=
+Clean-param: yadclid&54406536&yadordid&action&stat-id&test-tag&banner-sizes&format-type
+
+Sitemap: https://orbita-stroy.com/sitemap.xml
