@@ -132,7 +132,7 @@
 							</h2>
 						</div> -->
 						<div class="mt-8 text-lg text-slate-600">
-							{@html data.catalog.catalog_one.text[0]?.value}
+							{@html data.catalog.catalog_one.text[1]?.value}
 						</div>
 					</div>
 				</div>
