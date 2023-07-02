@@ -128,7 +128,7 @@ const actions = [
 	{
 		id: '1661',
 		action: 'Утеплитель Технониколь роклайт 1200*600*50',
-		price: '875',
+		price: '1005',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/product/uteplitel-texnonikol-roklait-120060050',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/c2eHGTqI7cLLb0g8nf4vlbuB6KENnH59Ukii45om.jpg'
@@ -144,7 +144,7 @@ const actions = [
 	{
 		id: '1953',
 		action: 'Плита осб-3 2500*1250*6мм Kronospan ГОСТ (влагостойкая)',
-		price: '405',
+		price: '500',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/product/plita-osb-3-250012506mm-kronospan-gost-vlagostoykaya',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/YBbav3JxXOKl8hYDTen6CzCa1TUlMBagzDxTXlFO.png'
@@ -160,7 +160,7 @@ const actions = [
 	{
 		id: '1421',
 		action: 'Плита ОСБ-3 2500*1250*12мм Kronospan ГОСТ (влагостойкая)',
-		price: '620',
+		price: '750',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/product/plita-osb-3-2500125012mm-kronospan-gost-vlagostoikaya',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/14ztRKlEjShs6Hnr5L5moOWqn7cOCpDhgEbYd7uG.jpeg'
@@ -222,7 +222,7 @@ const actions = [
 	{
 		id: '436',
 		action: 'Штукатурная смесь "Кнауф Ротбанд" белая (30 кг)',
-		price: '489',
+		price: '545',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/product/stukaturnaya-smes-knauf-rotband-belaya-30-kg',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/020_original.jpg'
@@ -348,7 +348,7 @@ const actions = [
 	{
 		id: '431',
 		action: 'Штукатурная смесь "ЕК" tg 40 (30 кг)',
-		price: '428',
+		price: '460',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/product/stukaturnaya-smes-ek-tg-40-30-kg',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/EK-TG40.png'
