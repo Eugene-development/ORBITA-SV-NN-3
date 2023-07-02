@@ -224,7 +224,9 @@
 							</ul>
 						</div>
 						<div class="mt-12 md:mt-0">
-							<h3 class="text-lg font-semibold uppercase tracking-wider text-gray-400">Услуги:</h3>
+							<span class="text-lg font-semibold uppercase tracking-wider text-gray-400"
+								>Услуги:</span
+							>
 
 							<ul class="mt-4 space-y-4">
 								<li class="flow-root">

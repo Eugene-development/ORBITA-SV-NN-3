@@ -75,30 +75,30 @@
 				<div class="mx-auto flex flex-wrap">
 					<div class="mb-6 w-full lg:mb-0 lg:w-1/2 lg:py-6 lg:pr-12">
 						<p class="title-font text-base tracking-widest text-red-500">НАИМЕНОВАНИЕ</p>
-						<h2
+						<h1
 							class="title-font my-4 text-xl font-medium lowercase text-slate-900 first-letter:uppercase"
 						>
 							{data.product.product_one.value}
 							<!-- {data.product.product_one.value}-{data.product.product_one.id} -->
-						</h2>
+						</h1>
 						<div class="mb-4 flex">
 							<button
 								on:click={changeVisibleDescriptionInfo}
 								class="flex-grow border-slate-300  py-2 px-1 text-lg focus:outline-none {$visibleDescription
 									? 'border-b-2 font-bold'
-									: 'font-normal'}">Описание</button
+									: 'font-normal'}"><h2>Описание</h2></button
 							>
 							<button
 								on:click={changeVisiblePaymentInfo}
 								class="flex-grow border-slate-300 py-2 px-1 text-lg focus:outline-none {$visiblePayment
 									? 'border-b-2 font-bold'
-									: 'font-normal '}">Оплата</button
+									: 'font-normal '}"><h2>Оплата</h2></button
 							>
 							<button
 								on:click={changeVisibleDeliveryInfo}
 								class="flex-grow border-slate-300 py-2 px-1 text-lg focus:outline-none {$visibleDelivery
 									? 'border-b-2 font-bold'
-									: 'font-normal '}">Доставка</button
+									: 'font-normal '}"><h2>Доставка</h2></button
 							>
 						</div>
 
@@ -122,7 +122,7 @@
 							<p class="mb-4 leading-relaxed">
 								Доставка компании «Орбита-Строй» осуществляется следующими способами:<br />
 								* Самовывоз (с базы в г. Дзержинск);<br />
-								* Доставка по Нижнему Новгороду и области от 1 200 рублей (подробности уточняйте у менеджеров);<br
+								* Доставка по Нижнему Новгороду и области от 500 рублей (подробности уточняйте у менеджеров);<br
 								/>
 								* Доставка бесплатная, при заказе товаров более, чем на 15 000 рублей.<br />
 								Доставка осуществляется по графику (пн - сб);<br />
