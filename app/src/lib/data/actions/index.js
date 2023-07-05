@@ -142,7 +142,7 @@ const actions = [
 	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/%D1%84%D0%BB%D0%B8%D0%B7%D0%B5%D0%BD.webp'
 	// },
 	{
-		id: '1953',
+		id: '2946',
 		action: 'Плита осб-3 2500*1250*6мм Kronospan ГОСТ (влагостойкая)',
 		price: '500',
 		description: 'При заказе через сайт дополнительная скидка 5%',
