@@ -184,7 +184,7 @@ const actions = [
 	{
 		id: '2766',
 		action: 'Мастика гидроизоляционная 20 кг. "Альфатехмаст"',
-		price: '1605',
+		price: '1750',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/product/mastika-gidroizolyacionnaya-20-kg-alfatexmast',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/qxoqQpTjJzhnAIzNEo9kjXtMHpNxo5oXEOfRYwGq.jpg'
@@ -230,7 +230,7 @@ const actions = [
 	{
 		id: '965',
 		action: 'Эпп Технониколь 1180*580*50-l',
-		price: '293',
+		price: '348',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/product/epp-xps30-200-texnopleks-118058050-l',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/XPS-%D0%A2%D0%95%D0%A5%D0%9D%D0%9E%D0%9F%D0%9B%D0%95%D0%9A%D0%A1.png'
@@ -238,7 +238,7 @@ const actions = [
 	{
 		id: '964',
 		action: 'Эпп Технониколь 1180*580*30-l',
-		price: '185',
+		price: '200',
 		description: 'При заказе через сайт дополнительная скидка 5%',
 		link: '/product/epp-xps30-200-texnopleks-118058030-l',
 		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/XPS-%D0%A2%D0%95%D0%A5%D0%9D%D0%9E%D0%9F%D0%9B%D0%95%D0%9A%D0%A1.png'
