@@ -105,7 +105,7 @@
 						{#if $visibleDescription}
 							<!-- TODO: переделать -->
 							{#if data.product.product_one.text}
-								<p class="mb-4 leading-relaxed ">{@html data.product.product_one.text.value}</p>
+								<p class="mb-4 leading-relaxed ">{@html data.product.product_one.text[1]?.value}</p>
 							{:else}
 								<p class="mb-4 leading-relaxed ">Описание товара отсутствует</p>
 							{/if}
