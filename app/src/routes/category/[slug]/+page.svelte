@@ -318,11 +318,17 @@
 									<!-- <p class="pt-2">Наши цены, ассортимент товаров и применение.</p> -->
 								</h2>
 							</div>
-							{#each data.rubric.rubric_one?.text as { key, value }}
-								{#if key === '10'}
-									<div class="mt-8 text-lg text-slate-700">{@html value}</div>
-								{/if}
-							{/each}
+							<div class="mt-8 lg:mt-0">
+								<div
+									class="mt-8 prose prose-indigo text-gray-500 mx-auto lg:max-w-none lg:row-start-1 lg:col-start-1"
+								>
+									{#each data.rubric.rubric_one?.text as { key, value }}
+										{#if key === '10'}
+											{@html value}
+										{/if}
+									{/each}
+								</div>
+							</div>
 						</div>
 					</div>
 					<div class="mt-6 rounded-md shadow lg:flex-shrink-0">
