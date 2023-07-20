@@ -16,27 +16,51 @@
 			</span> -->
 
 			<nav class="flex mb-6" aria-label="Breadcrumb">
-				<div  class="flex items-center space-x-4 mx-auto">
+				<div class="flex items-center space-x-4 mx-auto">
 					<div>
 						<div>
 							<a href="/" class="text-slate-500 hover:text-slate-600">
-							<!-- Heroicon name: mini/home -->
-							<svg class="h-6 w-6 flex-shrink-0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-								<path fill-rule="evenodd" d="M9.293 2.293a1 1 0 011.414 0l7 7A1 1 0 0117 11h-1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-3a1 1 0 00-1-1H9a1 1 0 00-1 1v3a1 1 0 01-1 1H5a1 1 0 01-1-1v-6H3a1 1 0 01-.707-1.707l7-7z" clip-rule="evenodd" />
-							</svg>
-							<span class="sr-only">Главная</span>
+								<!-- Heroicon name: mini/home -->
+								<svg
+									class="h-6 w-6 flex-shrink-0"
+									xmlns="http://www.w3.org/2000/svg"
+									viewBox="0 0 20 20"
+									fill="currentColor"
+									aria-hidden="true"
+								>
+									<path
+										fill-rule="evenodd"
+										d="M9.293 2.293a1 1 0 011.414 0l7 7A1 1 0 0117 11h-1v6a1 1 0 01-1 1h-2a1 1 0 01-1-1v-3a1 1 0 00-1-1H9a1 1 0 00-1 1v3a1 1 0 01-1 1H5a1 1 0 01-1-1v-6H3a1 1 0 01-.707-1.707l7-7z"
+										clip-rule="evenodd"
+									/>
+								</svg>
+								<span class="sr-only">Главная</span>
 							</a>
 						</div>
 					</div>
 
 					<div>
 						<div class="flex items-center">
-							<svg class="h-5 w-5 flex-shrink-0 text-slate-500" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-							<path fill-rule="evenodd" d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z" clip-rule="evenodd" />
+							<svg
+								class="h-5 w-5 flex-shrink-0 text-slate-500"
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 20 20"
+								fill="currentColor"
+								aria-hidden="true"
+							>
+								<path
+									fill-rule="evenodd"
+									d="M7.21 14.77a.75.75 0 01.02-1.06L11.168 10 7.23 6.29a.75.75 0 111.04-1.08l4.5 4.25a.75.75 0 010 1.08l-4.5 4.25a.75.75 0 01-1.06-.02z"
+									clip-rule="evenodd"
+								/>
 							</svg>
-							<a  data-sveltekit-prefetch
-							    data-sveltekit-noscroll
-								href="/rubric/{data.rubric.rubric_one.parent.slug}" class="ml-4 text-base md:text-xl font-medium text-slate-600 ">{data.rubric.rubric_one.parent.value}</a>
+							<a
+								data-sveltekit-prefetch
+								data-sveltekit-noscroll
+								href="/rubric/{data.rubric.rubric_one.parent.slug}"
+								class="ml-4 text-base md:text-xl font-medium text-slate-600 "
+								>{data.rubric.rubric_one.parent.value}</a
+							>
 						</div>
 					</div>
 
@@ -48,7 +72,6 @@
 							<span class="ml-4 text-base md:text-xl font-medium text-slate-600 ">{data.rubric.rubric_one.value}</span>
 						</div>
 					</div> -->
-
 				</div>
 			</nav>
 
@@ -56,7 +79,8 @@
 				{data.rubric.rubric_one.value}
 			</h1>
 			<p class="max-w-3xl text-xl mx-auto text-slate-800">
-				Купите товар "{data.rubric.rubric_one.value}" в Нижнем Новгороде по низкой цене с доставкой или самовывозом
+				Купите товар "{data.rubric.rubric_one.value}" в Нижнем Новгороде по низкой цене с доставкой
+				или самовывозом
 			</p>
 		</div>
 	</div>
@@ -131,7 +155,11 @@
 									class="mx-auto mb-8 max-w-lg overflow-hidden rounded-lg shadow-lg lg:flex lg:max-w-none "
 								>
 									<div class="flex-1 bg-gray-50 px-6 py-8 lg:p-12">
-										<h3 class="text-2xl md:text-3xl font-extrabold text-gray-900 sm:text-4xl text-center">{value}</h3>
+										<h3
+											class="text-2xl md:text-3xl font-extrabold text-gray-900 sm:text-4xl text-center"
+										>
+											{value}
+										</h3>
 										<!-- {#if text}
 											<p class="mt-6 text-base text-gray-500">{text.descriptionText}</p>
 										{:else}
@@ -278,99 +306,36 @@
 				</div>
 			</div>
 
-			<!-- This example requires Tailwind CSS v2.0+ -->
-			<div class="relative py-1 ">
-				<!--            <div class="py-1 relative shadow-lg shadow-slate-100/50 rounded-lg border-2 border-slate-100 ring-offset-1 ring-1 ring-slate-50">-->
-				<!--          <div class="py-1 relative bg-gradient-to-b from-slate-50 via-slate-800 to-slate-50 shadow-lg rounded-lg">-->
-
-				<div class="mx-auto max-w-full py-3 px-3 sm:px-6 lg:px-8">
-					<!-- {#if text}
-						<div class="px-8 text-center">
-							<p class="text-lg font-medium text-slate-800">
-								<span>{text.descriptionText}</span>
-							</p>
+			<div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+				<div class="mx-auto max-w-xl lg:max-w-7xl">
+					<div class="rounded-lg bg-slate-50 px-6 py-8 sm:p-10 lg:flex lg:items-center">
+						<!--            <div v-for="(text, idx) of head.text" :key="text.id" class="rounded-lg bg-slate-50 px-6 py-8 sm:p-10 lg:flex lg:items-center">-->
+						<div class="flex-1">
+							<div class="">
+								<h2 class="mx-auto px-4 py-1 text-xl text-center tracking-wide text-slate-800">
+									<strong class="text-3xl md:text-4xl">{data.rubric.rubric_one.value}</strong>
+									<br />
+									<!-- <p class="pt-2">Наши цены, ассортимент товаров и применение.</p> -->
+								</h2>
+							</div>
+							{#each data.rubric.rubric_one?.text as { key, value }}
+								{#if key === '10'}
+									<div class="mt-8 text-lg text-slate-600">{@html value}</div>
+								{/if}
+							{/each}
 						</div>
-					{:else}
-						<div class="px-8 text-center">
-							<p class="text-xl font-medium text-slate-800">
-								<span>При заказе через сайт для вас скидка 5%</span>
-							</p>
-						</div>
-					{/if} -->
+					</div>
+					<div class="mt-6 rounded-md shadow lg:flex-shrink-0">
+						<!-- <a
+							href="/information/action"
+							class="flex items-center justify-center rounded-md border border-transparent bg-slate-700 px-5 py-3 text-base text-center font-medium text-slate-50 hover:bg-slate-800"
+						>
+							{data.rubric.rubric_one.value} по низкой цене с доставкой в Дзержинске. Cледите за нашими
+							акциями!
+						</a> -->
+					</div>
 				</div>
 			</div>
-
-			<!--            <div class="relative max-w-7xl mx-auto">-->
-			<!--                &lt;!&ndash;          <div class="text-center">&ndash;&gt;-->
-			<!--                &lt;!&ndash;            <h2 class="text-3xl tracking-tight font-extrabold text-slate-900 sm:text-4xl">&ndash;&gt;-->
-			<!--                &lt;!&ndash;              {{ rubric.name }}&ndash;&gt;-->
-			<!--                &lt;!&ndash;            </h2>&ndash;&gt;-->
-			<!--                &lt;!&ndash;            <p class="mt-3 max-w-2xl mx-auto text-xl text-slate-500 sm:mt-4">&ndash;&gt;-->
-			<!--                &lt;!&ndash;              Наша компания предлагает стройматериалы по самым низким ценам&ndash;&gt;-->
-			<!--                &lt;!&ndash;            </p>&ndash;&gt;-->
-			<!--                &lt;!&ndash;          </div>&ndash;&gt;-->
-			<!--                &lt;!&ndash;          <hr class="mt-8">&ndash;&gt;-->
-			<!--                <div class="mt-8 max-w-lg mx-auto lg:max-w-none">-->
-			<!--                    &lt;!&ndash;                <div class="mt-8 max-w-lg mx-auto grid gap-5 lg:grid-cols-2 lg:max-w-none">&ndash;&gt;-->
-
-			<!--                    {#each category as {id, name, slug, product, text}}-->
-
-			<!--                        &lt;!&ndash; This example requires Tailwind CSS v2.0+ &ndash;&gt;-->
-
-			<!--                        <div class=" flex flex-col border-b-2">-->
-			<!--                            &lt;!&ndash;                    <div class=" flex flex-col rounded-lg shadow-lg shadow-slate-100/50 overflow-hidden border-2 border-slate-50 ring-offset-1 ring-1 ring-slate-50">&ndash;&gt;-->
-			<!--                            &lt;!&ndash;            <div class="flex-shrink-0">&ndash;&gt;-->
-			<!--                            &lt;!&ndash;              <img class="h-48 w-full object-cover" src="https://images.unsplash.com/photo-1496128858413-b36217c2ce36?ixlib=rb-1.2.1&ixqx=IrF17Golbw&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1679&q=80" alt="">&ndash;&gt;-->
-			<!--                            &lt;!&ndash;            </div>&ndash;&gt;-->
-			<!--                            <div class="flex-1 p-6 flex flex-col justify-between">-->
-			<!--                                <div class="flex-1">-->
-			<!--                                    <a sveltekit:prefetch sveltekit:noscroll href='/products/{slug}'>-->
-			<!--                                        <h2 class="text-2xl md:text-3xl font-semibold text-slate-800">-->
-			<!--                                            { name }-->
-			<!--                                        </h2>-->
-			<!--                                        {#if (text)}-->
-			<!--                                            <p class="mt-3 text-base text-slate-800">-->
-			<!--                                                { text.descriptionText }-->
-			<!--                                            </p>-->
-			<!--                                        {:else }-->
-			<!--                                            <p class="mt-3 text-base text-slate-800">Уточняйте наличие</p>-->
-			<!--                                        {/if}-->
-			<!--                                        <p class="mt-2 text-lg font-medium text-red-600 place-items-end">Выбрать товар-->
-			<!--                                            &rarr;</p>-->
-			<!--                                    </a>-->
-			<!--                                </div>-->
-			<!--                                &lt;!&ndash;              <div class="mt-6 flex items-center">&ndash;&gt;-->
-			<!--                                &lt;!&ndash;                <div class="flex-shrink-0">&ndash;&gt;-->
-			<!--                                &lt;!&ndash;                  <a href="#">&ndash;&gt;-->
-			<!--                                &lt;!&ndash;                    <span class="sr-only">Roel Aufderehar</span>&ndash;&gt;-->
-			<!--                                &lt;!&ndash;                    <img class="h-10 w-10 rounded-full" src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&ixqx=IrF17Golbw&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=2&w=256&h=256&q=80" alt="">&ndash;&gt;-->
-			<!--                                &lt;!&ndash;                  </a>&ndash;&gt;-->
-			<!--                                &lt;!&ndash;                </div>&ndash;&gt;-->
-			<!--                                &lt;!&ndash;                <div class="ml-3">&ndash;&gt;-->
-			<!--                                &lt;!&ndash;                  <p class="text-sm font-medium text-slate-900">&ndash;&gt;-->
-			<!--                                &lt;!&ndash;                    <a href="#" class="hover:underline">&ndash;&gt;-->
-			<!--                                &lt;!&ndash;                      Roel Aufderehar&ndash;&gt;-->
-			<!--                                &lt;!&ndash;                    </a>&ndash;&gt;-->
-			<!--                                &lt;!&ndash;                  </p>&ndash;&gt;-->
-			<!--                                &lt;!&ndash;                  <div class="flex space-x-1 text-sm text-slate-500">&ndash;&gt;-->
-			<!--                                &lt;!&ndash;                    <time datetime="2020-03-16">&ndash;&gt;-->
-			<!--                                &lt;!&ndash;                      Mar 16, 2020&ndash;&gt;-->
-			<!--                                &lt;!&ndash;                    </time>&ndash;&gt;-->
-			<!--                                &lt;!&ndash;                    <span aria-hidden="true">&ndash;&gt;-->
-			<!--                                &lt;!&ndash;                  &middot;&ndash;&gt;-->
-			<!--                                &lt;!&ndash;                </span>&ndash;&gt;-->
-			<!--                                &lt;!&ndash;                    <span>&ndash;&gt;-->
-			<!--                                &lt;!&ndash;                  6 min read&ndash;&gt;-->
-			<!--                                &lt;!&ndash;                </span>&ndash;&gt;-->
-			<!--                                &lt;!&ndash;                  </div>&ndash;&gt;-->
-			<!--                                &lt;!&ndash;                </div>&ndash;&gt;-->
-			<!--                                &lt;!&ndash;              </div>&ndash;&gt;-->
-			<!--                            </div>-->
-			<!--                        </div>-->
-
-			<!--                    {/each}-->
-			<!--                </div>-->
-			<!--            </div>-->
 		</div>
 	</div>
 </div>

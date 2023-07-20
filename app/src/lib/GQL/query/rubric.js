@@ -22,6 +22,10 @@ export const ONE_RUBRIC = gql`
 	query rubric($slug: String!, $key: String!) {
 		rubric_one(slug: $slug, key: $key) {
 			value
+			text {
+				key
+				value
+			}
 			category {
 				value
 				slug
