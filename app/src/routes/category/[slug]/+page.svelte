@@ -320,7 +320,7 @@
 							</div>
 							{#each data.rubric.rubric_one?.text as { key, value }}
 								{#if key === '10'}
-									<div class="mt-8 text-lg text-slate-600">{@html value}</div>
+									<div class="mt-8 text-lg text-slate-700">{@html value}</div>
 								{/if}
 							{/each}
 						</div>
