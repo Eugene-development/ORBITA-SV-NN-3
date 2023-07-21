@@ -125,14 +125,14 @@ const actions = [
 	// 	link: '/product/gklv-knauf-danogips-95mm-12x25',
 	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/D2JsbwgeZcA0z4OLW242TuXbW5KFsDYQMR59VFSE.jpeg'
 	// },
-	{
-		id: '1661',
-		action: 'Утеплитель Технониколь роклайт 1200*600*50',
-		price: '1005',
-		description: 'При заказе через сайт дополнительная скидка 5%',
-		link: '/product/uteplitel-texnonikol-roklait-120060050',
-		img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/c2eHGTqI7cLLb0g8nf4vlbuB6KENnH59Ukii45om.jpg'
-	},
+	// {
+	// 	id: '1661',
+	// 	action: 'Утеплитель Технониколь роклайт 1200*600*50',
+	// 	price: '1005',
+	// 	description: 'При заказе через сайт дополнительная скидка 5%',
+	// 	link: '/product/uteplitel-texnonikol-roklait-120060050',
+	// 	img: 'https://lumen-image-bucket.s3.eu-central-1.amazonaws.com/images/c2eHGTqI7cLLb0g8nf4vlbuB6KENnH59Ukii45om.jpg'
+	// },
 	// {
 	// 	id: '307',
 	// 	action: 'Клей для плитки "Кнауф" флизенклебер (25 кг)',
