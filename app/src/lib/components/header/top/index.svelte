@@ -285,7 +285,7 @@
 					</svg>
 					<a
 						class="rounded-md pl-1 text-sm font-medium text-gray-200 sm:text-base md:text-lg"
-						href="tel:+79023033654">8 (800) 550-21-35</a
+						href="tel:+78005502135">8 (800) 550-21-35</a
 					>
 				</div>
 
