@@ -1,9 +1,7 @@
-FROM node:16.14.0
-ENV APP_ROOT /app
+FROM --platform=linux/amd64 node:18.17.1
 
-RUN mkdir ${APP_ROOT}
-WORKDIR ${APP_ROOT}
-ADD ./ ${APP_ROOT}
+WORKDIR /project
+COPY . .
 
 RUN npm install
 RUN npm run build
